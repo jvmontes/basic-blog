@@ -10,7 +10,12 @@
     max-width: 30rem;
 }
 
-h2 {
-    margin-left: .75rem;
-    margin-right: .75rem;
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: .5rem;
+    width: 100px;
+    height: 128px;
 }
