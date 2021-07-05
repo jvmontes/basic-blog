@@ -21,7 +21,7 @@ const homeHeader = () => {
             <div className={styles.homeHeaderText}>
                 <h1>Hi, my name is</h1>
                 <h1>Jorge Viramontes.</h1>
-                <h1>This is my story.</h1>
+                <h1>Here's my story.</h1>
             </div>
         </div>
     )
