@@ -136,10 +136,6 @@ const IndexPage = () => (
       </h3>
 
       <p>
-        I currently don't have any kids.
-      </p>
-
-      <p>
         My goal is to earn passive income via multiple revenue streams and build the house of my dreams.
       </p>
 
@@ -165,22 +161,9 @@ const IndexPage = () => (
 
     <div className="bioContainer">
       <div className="copyContent">
-        <h3>
-          I'm a software engineer, musician, and writer.
-        </h3>
-        <p>
-          I like to solve problems, write music, share stories, and build systems that work.
-          I think we all have a unique story to be told, and it is my passion to share those stories with the world and leave our legacy.
-          I believe in authentic personal connections to unravel the incredible possibilities within each of us.
-          I believe in embracing the future of technology for the <em>betterment and advancement of all humans.</em>
-        </p>
-        <p>
-          I was born and raised in Chicago, IL, USA.
-          Contact me to talk about building your own website, see my work, read my blog, or check out some music I've written!
-        </p>
 
-        <h4>This is a website I’ve built completely from the ground up.</h4>
-
+        <h3>This is a website I’ve built completely from the ground up.</h3>
+ 
         <p>Here are just some of the different technologies I used to build this site:</p>
 
         <IconCollection></IconCollection>
@@ -197,7 +180,7 @@ const IndexPage = () => (
     </div>
 
     <div className="copyContent">
-      <h2>Thanks for visiting!</h2>
+      <h1>Thanks for visiting!</h1>
     </div>
 
     <EmailSignup></EmailSignup>
