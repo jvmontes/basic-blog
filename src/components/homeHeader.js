@@ -7,10 +7,10 @@ const homeHeader = () => {
     return (
         <div className={styles.homeHeaderContainer}>
             <StaticImage
-                src="../images/headshot-engaged.jpg" alt="Headshot of Jorge"
+                src="../images/hiking.jpg" alt="Headshot of Jorge"
                 placeholder="blurred"
                 layout="fixed"
-                width={300}
+                width={340}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 style={{
                     marginBottom: `1.45rem`,
@@ -21,7 +21,7 @@ const homeHeader = () => {
             <div className={styles.homeHeaderText}>
                 <h1>Hi, my name is</h1>
                 <h1>Jorge Viramontes.</h1>
-                <h1>This is my story.</h1>
+                <h1>Here's my story.</h1>
             </div>
         </div>
     )

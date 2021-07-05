@@ -4,11 +4,12 @@ import * as styles from './emailSignup.module.css'
 
 import { IconContext } from "react-icons"
 import { useBreakpoint } from 'gatsby-plugin-breakpoints'
+import "../styles/global.css"
 
 const EmailSignup = () => {
     const breakpoints = useBreakpoint();
     return (
-        <div className={styles.signupContainer}>
+        <div className={styles.signupContainer + " " + "standardSpacing"}>
             <h3>Join me on this journey to unlock Endless Possibilities in life.</h3>
             <div>
                 <form name="emailSignup" method="post" data-netlify="true" action="/email-signup-success" data-netlify-honeypot="bot-field">
