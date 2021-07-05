@@ -2,13 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    margin: 0 auto;
+    max-width: 960px;
     padding: 4rem;
 }
 
 @media screen and (max-width: 600px) {
     .homeHeaderContainer {
         padding: 1rem;
+        margin: .5rem auto;
     }
 }
 
