@@ -164,7 +164,7 @@ const IndexPage = () => (
 
         <h3>This is a website I’ve built completely from the ground up.</h3>
  
-        <p>Here are just some of the different technologies I used to build this site:</p>
+        <p>Here the different technologies I used to build this site:</p>
 
         <IconCollection></IconCollection>
 

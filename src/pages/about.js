@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import { Link } from "gatsby"
 import "../styles/global.css"
 
 const AboutPage = () => (
@@ -8,11 +9,12 @@ const AboutPage = () => (
         <div className="standardSpacing">
             <Seo title="About" />
             <h1>About Me</h1>
-            <p>Thanks for visiting my website today. Here's a little bit more about me.</p>
             <h3>
                 I'm a software engineer, musician, and writer.
             </h3>
 
+            <p>Thanks for visiting my website today. Here's a little bit more about me.</p>
+            
             <p>
                 I was born and raised in Chicago, IL, USA.
             </p>
@@ -31,7 +33,7 @@ const AboutPage = () => (
             </p>
 
             <p>
-                Contact me to talk about building your own website, see my work, read my blog, or check out some music I've written!
+                <Link to="/contact-me">Contact me</Link> to talk about building your own website, <Link to="/blog">read my blog,</Link> or <a href="https://soundcloud.com/jayalbertomusic">check out some music I've written</a>!
             </p>
         </div>
     </Layout>
