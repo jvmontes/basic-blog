@@ -20,9 +20,7 @@ const IndexPage = () => (
         <h1>Welcome!</h1>
 
         <p>Thank you for visiting this page on the internet. You could have been anywhere else on the internet, but I'm glad you are here.</p>
-
-        <p>With the power of technology, we can either take ownership of the changes ahead of us or fall victim to them.</p>
-
+        
         <h3>
           I built this site because I wanted to take ownership and accountability over my life and my career.
         </h3>
@@ -86,10 +84,6 @@ const IndexPage = () => (
         </ul>
 
       </div>
-    </div>
-
-    <div className="copyContent">
-      <h1>Thanks for visiting!</h1>
     </div>
 
     <EmailSignup></EmailSignup>
