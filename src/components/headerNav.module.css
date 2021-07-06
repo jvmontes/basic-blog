@@ -32,7 +32,7 @@
 
 .linkContainer:hover {
     font-weight: bold;
-    background: #E6E6E6;
+    background: #FAFAFA;
 }
 
 @media screen and (max-width: 700px) {
