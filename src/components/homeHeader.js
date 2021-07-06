@@ -14,7 +14,7 @@ const homeHeader = () => {
                 formats={["AUTO", "WEBP", "AVIF"]}
                 style={{
                     margin: `auto auto 1.45rem`,
-                    border: `groove black`
+                    border: `2px solid black`
                 }}
             />
 
