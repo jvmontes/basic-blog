@@ -1,8 +1,6 @@
 import React from 'react'
-import { FaPaperPlane } from 'react-icons/fa'
 import * as styles from './emailSignup.module.css'
 
-import { IconContext } from "react-icons"
 import { useBreakpoint } from 'gatsby-plugin-breakpoints'
 import "../styles/global.css"
 

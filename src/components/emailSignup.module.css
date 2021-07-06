@@ -22,11 +22,11 @@
 
 .sendButton {
     padding: 0 .5rem;
-    background-color: #555;
+    background-color: #C8F4F9;
     cursor: pointer;
     border-radius: 0px 4px 4px 0px;
     border: none;
-    color: #fafafa;
+    color: #1A1A1A;
     font-weight: 600;
     font-size: 1rem;
 }

@@ -20,7 +20,7 @@ const IndexPage = () => (
         <h1>Welcome!</h1>
 
         <p>Thank you for visiting this page on the internet. You could have been anywhere else on the internet, but I'm glad you are here.</p>
-        
+
         <h3>
           I built this site because I wanted to take ownership and accountability over my life and my career.
         </h3>
@@ -72,9 +72,11 @@ const IndexPage = () => (
         <h1>I built this website from the ground up.</h1>
  
         <p>Here the different technologies I used to build this site:</p>
+      </div>
 
-        <IconCollection></IconCollection>
+      <IconCollection></IconCollection>
 
+      <div className="copyContent">
         <p>Here are some of the benefits from building a website this way:</p>
         <ul>
           <li>No heavy bogged down WordPress integrations or generic pre-built themes.</li>
