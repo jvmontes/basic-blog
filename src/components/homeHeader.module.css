@@ -14,6 +14,18 @@
     }
 }
 
+.titleText {
+    margin: 1.45rem 0;
+
+    color: #1A1A1A;
+    text-decoration: none;
+    font-family: "Krona One";
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
 .homeHeaderText {
     display: flex;
     flex-direction: column;

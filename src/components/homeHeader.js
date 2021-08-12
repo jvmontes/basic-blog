@@ -6,6 +6,18 @@ import { StaticImage } from "gatsby-plugin-image"
 const homeHeader = () => {
     return (
         <div className={styles.homeHeaderContainer}>
+            <div>
+                <div className={styles.titleText}>
+                    Jorge Viramontes
+                </div>
+
+                <div className={styles.homeHeaderText}>
+                    <h1>Hi, my name is</h1>
+                    <h1>Jorge Viramontes.</h1>
+                    <h1>Here's my story.</h1>
+                </div>
+            </div>
+
             <StaticImage
                 src="../images/hiking.jpg" alt="Headshot of Jorge"
                 placeholder="blurred"
@@ -17,12 +29,6 @@ const homeHeader = () => {
                     border: `2px solid black`
                 }}
             />
-
-            <div className={styles.homeHeaderText}>
-                <h1>Hi, my name is</h1>
-                <h1>Jorge Viramontes.</h1>
-                <h1>Here's my story.</h1>
-            </div>
         </div>
     )
 }
