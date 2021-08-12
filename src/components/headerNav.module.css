@@ -22,9 +22,7 @@
     margin: 0 .5rem;
     padding: .5rem 0;
     min-width: 120px;
-
-    border-radius: 20px;
-
+    
     text-decoration: none;
     text-align: center;
     color: #1A1A1A;
@@ -32,7 +30,6 @@
 
 .linkContainer:hover {
     font-weight: bold;
-    background: #FAFAFA;
 }
 
 @media screen and (max-width: 700px) {

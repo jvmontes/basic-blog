@@ -7,7 +7,6 @@ import { IconContext } from "react-icons"
 import { FiMail, FiCamera, FiHome, FiShoppingBag, FiBook, FiUser } from 'react-icons/fi'
 
 const activeStyles = {
-    background: '#C8F4F9',
     fontWeight: 'bold',
     color: '#1A1A1A',
     textAlign: 'center'
@@ -28,7 +27,7 @@ const HeaderNav = () => (
             <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
                 <span><FiMail></FiMail></span>
             </IconContext.Provider>
-            Message
+            Contact
         </Link>
 
         <Link to="/blog" className={styles.linkContainer} activeStyle={activeStyles}>
@@ -42,7 +41,7 @@ const HeaderNav = () => (
             <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
                 <span><FiUser></FiUser></span>
             </IconContext.Provider>
-            About Me
+            About
         </Link>
 
         {/* 
