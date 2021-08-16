@@ -11,11 +11,10 @@ const Header = ({ siteTitle }) => (
   <header className={headerStyles.header}>
     <Link to="/">
       <StaticImage
-        src="../images/jv.png" width={120} quality={95}
+        src="../images/jv.png" width={80} quality={95}
         formats={["AUTO", "WEBP", "AVIF"]} alt="JV Logo"
       />
     </Link>
-    <HeaderNav></HeaderNav>
   </header>
 )
 
