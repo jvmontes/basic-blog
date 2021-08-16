@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Jorge Viramontes`,
-    description: `A blog on all things in Jorge's head, built on Gatsby.`,
+    description: `A portfolio to showcase professional work, blog, and music.`,
     author: `@jvmontes`,
   },
   plugins: [
@@ -27,7 +27,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/jv.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
