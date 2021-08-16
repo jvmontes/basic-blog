@@ -5,30 +5,44 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const homeHeader = () => {
     return (
-        <div className={styles.homeHeaderContainer}>
-            <div>
-                <div className={styles.titleText}>
+        <div className={styles.homeBanner}>
+            <div className={styles.bannerDetails}>
+                <div className={styles.title}>
                     Jorge Viramontes
                 </div>
 
-                <div className={styles.homeHeaderText}>
-                    <h1>Hi, my name is</h1>
-                    <h1>Jorge Viramontes.</h1>
-                    <h1>Here's my story.</h1>
+                <p className={styles.tagline}>
+                    Entrepreneur, Engineer, and Empath
+                </p>
+
+                <div className={styles.description}>
+                    <p>
+                        Jorge brings over seven years of Fortune 500 consulting experience to the digital entrepreneurship realm from Chicago, IL.
+                    </p>
+
+                    <p>
+                        He's the owner of Alacrán Digital Services, a digital media company focused on growing small businesses via personal relationships and coaching.
+                    </p>
+
+                    <p>
+                        When he's not coding or creating content, he loves to travel, meeting new people, and listens to all kinds of music.
+                    </p>
                 </div>
             </div>
 
-            <StaticImage
-                src="../images/hiking.jpg" alt="Headshot of Jorge"
-                placeholder="blurred"
-                layout="fixed"
-                width={340}
-                formats={["AUTO", "WEBP", "AVIF"]}
-                style={{
-                    margin: `auto auto 1.45rem`,
-                    border: `2px solid black`
-                }}
-            />
+            <div>
+                <StaticImage
+                    src="../images/hiking.jpg" alt="Headshot of Jorge"
+                    placeholder="blurred"
+                    layout="fixed"
+                    width={340}
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    style={{
+                        margin: `auto auto 1.45rem`,
+                        border: `2px solid black`
+                    }}
+                />
+            </div>
         </div>
     )
 }
