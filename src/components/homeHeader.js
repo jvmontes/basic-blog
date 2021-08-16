@@ -26,8 +26,10 @@ const homeHeader = () => {
                     </p>
 
                     <p>
-                        When he's not coding or creating content, he loves to travel, meeting new people, and listens to all kinds of music.
+                        When he's not coding or creating content, he loves traveling, meeting new people, and listening to all kinds of music.
                     </p>
+
+                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1uirgA5NGFs7y6t-9TP2e1WvkQkfufLXm/view?usp=sharing">View my resume here.</a>
                 </div>
 
                 <SocialLinks></SocialLinks>
