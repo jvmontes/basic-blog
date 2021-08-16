@@ -2,6 +2,7 @@
 import React from 'react'
 import * as styles from "./homeHeader.module.css"
 import { StaticImage } from "gatsby-plugin-image"
+import SocialLinks from "../components/socialLinks"
 
 const homeHeader = () => {
     return (
@@ -28,6 +29,8 @@ const homeHeader = () => {
                         When he's not coding or creating content, he loves to travel, meeting new people, and listens to all kinds of music.
                     </p>
                 </div>
+
+                <SocialLinks></SocialLinks>
             </div>
 
             <div>

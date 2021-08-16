@@ -39,8 +39,6 @@ const IndexPage = () => (
 
     <EmailSignup></EmailSignup>
 
-    <SocialLinks></SocialLinks>
-
   </Layout>
 )
 
