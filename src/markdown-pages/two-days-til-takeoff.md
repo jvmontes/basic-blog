@@ -1,7 +1,7 @@
 ---
-slug: "/blog/two-days-till-takeoff"
+slug: "/blog/two-days-til-takeoff"
 date: "2021-08-17"
-title: "Two Days Till Takeoff"
+title: "Two Days Til Takeoff"
 tags: ["Journey", "Travel", "Reflection", "Gratitude"]
 excerpt: "Tuesday, August 17th
 2 days until take-off. 
@@ -11,8 +11,7 @@ The day has finally come. I've been psyching myself out a lot about this upcomin
 The thing about commitment and going for it is: you really have no idea exactly what it'll look like. "
 ---
 
-Tuesday, August 17th
-2 days until take-off. 
+Two days until take-off. 
 
 The day has finally come. I've been psyching myself out a lot about this upcoming trip of mine. I thought it would've happened earlier in the summer. I thought I would've visited more destinations. I thought it would've been easier, faster, quicker to coordinate, easier to happen. I've figured it out halfway and am still flying, I am figuring out how to make this happen as time goes by. 
 
@@ -32,4 +31,6 @@ Even though I'm not in the spot where I thought I'd be by September 2021, I have
 
 This whole journey has been incredible and humbling, and I'm happy to be here for each step along the way. 
 
-Thank you for joining me along the way!~
+Thank you for joining me along the way!
+
+~
