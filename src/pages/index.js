@@ -5,9 +5,12 @@ import Seo from "../components/seo"
 import IconCollection from "../components/iconCollection"
 import HomeHeader from "../components/homeHeader"
 import EmailSignup from "../components/emailSignup"
-import SocialLinks from "../components/socialLinks"
+import { Link } from "gatsby"
 import "../styles/global.css"
 import "../styles/index.css"
+
+import { IconContext } from "react-icons"
+import { FiBook } from 'react-icons/fi'
 
 const IndexPage = () => (
   <Layout>
@@ -15,11 +18,20 @@ const IndexPage = () => (
 
     <HomeHeader></HomeHeader>
 
+    <div>
+      <Link to="/blog" className="linkContainer">
+        <IconContext.Provider value={{ color: "#1A1A1A", size: "2rem" }}>
+          <span><FiBook></FiBook></span>
+        </IconContext.Provider>
+        Blog
+      </Link>
+    </div>
+
     <div className="bioContainer">
       <div className="copyContent">
 
         <h1>I built this website from the ground up.</h1>
- 
+
         <p>Here the different technologies I used to build this site:</p>
       </div>
 
