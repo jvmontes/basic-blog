@@ -17,17 +17,3 @@
         padding: 1rem;
     }
 }
-
-.linkContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    margin: 0 .5rem;
-    padding: .5rem 0;
-    min-width: 120px;
-    
-    text-decoration: none;
-    text-align: center;
-    color: #1A1A1A;
-}

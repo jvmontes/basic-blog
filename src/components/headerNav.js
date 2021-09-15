@@ -16,20 +16,6 @@ const HeaderNav = () => (
 
     <div className={styles.headerNav}>
 
-        <Link to="/" className={styles.linkContainer} activeStyle={activeStyles}>
-            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
-                <span><FiHome></FiHome></span>
-            </IconContext.Provider>
-            Home
-        </Link>
-
-        <Link to="/contact-me" className={styles.linkContainer} activeStyle={activeStyles}>
-            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
-                <span><FiMail></FiMail></span>
-            </IconContext.Provider>
-            Contact
-        </Link>
-
         <Link to="/blog" className={styles.linkContainer} activeStyle={activeStyles}>
             <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
                 <span><FiBook></FiBook></span>
@@ -45,8 +31,24 @@ const HeaderNav = () => (
         </Link>
 
         {/* 
+
+        <Link to="/" className={styles.linkContainer} activeStyle={activeStyles}>
+            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
+                <span><FiHome></FiHome></span>
+            </IconContext.Provider>
+            Home
+        </Link>
+
         
+
         GALLERY & SHOP ARE FUTURE FEATURES.
+        
+        <Link to="/contact-me" className={styles.linkContainer} activeStyle={activeStyles}>
+            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
+                <span><FiMail></FiMail></span>
+            </IconContext.Provider>
+            Contact
+        </Link>
 
         <Link to="/gallery" className={styles.linkContainer} activeStyle={activeStyles}>
             <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>

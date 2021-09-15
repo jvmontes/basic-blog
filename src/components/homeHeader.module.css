@@ -21,7 +21,6 @@
 .title {
     margin: 1.45rem 0;
 
-    color: #1A1A1A;
     text-decoration: none;
     font-family: "Krona One";
     font-weight: bold;
@@ -31,5 +30,5 @@
 }
 
 .tagline {
-
+    line-height: 1.1;
 }

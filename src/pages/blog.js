@@ -1,4 +1,4 @@
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import * as React from "react"
 import BlogPreview from "../components/blogPreview";
 import Layout from "../components/layout";
@@ -35,8 +35,8 @@ const BlogPage = () => {
         <Layout>
             <div className="standardSpacing">
                 <Seo title="Blog" />
-                <h1>My Blog</h1>
-                <p>Here's where I put all my random thoughts, straight from my head to your eyes.</p>
+                <h1>My Thoughts</h1>
+                <p>Thanks for visiting this page. You could've been anywhere else on the internet, but you're here. For that, I thank you. Below you'll find posts I've written. I hope you enjoy! If you'd like to reach me, please don't hesitate to use the contact form <Link to="/contact-me">here.</Link></p>
                 <ul> {blogPreviews} </ul>
             </div>
         </Layout>

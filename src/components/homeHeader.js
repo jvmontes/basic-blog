@@ -12,9 +12,9 @@ const homeHeader = () => {
                     Jorge Viramontes
                 </div>
 
-                <p className={styles.tagline}>
+                <h4 className={styles.tagline}>
                     Entrepreneur, Engineer, and Empath
-                </p>
+                </h4>
 
                 <div className={styles.description}>
                     <p>
