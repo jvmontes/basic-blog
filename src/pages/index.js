@@ -1,12 +1,13 @@
 import * as React from "react"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import IconCollection from "../components/iconCollection"
-import HomeHeader from "../components/homeHeader"
-import EmailSignup from "../components/emailSignup"
 import "../styles/global.css"
 import "../styles/index.css"
+
+import IconCollection from "../components/iconCollection"
+import HomeHeader from "../components/homeHeader"
+import EmailSignup from "../components/forms/emailSignup"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>

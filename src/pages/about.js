@@ -33,7 +33,7 @@ const AboutPage = () => (
             </p>
 
             <p>
-                <Link to="/contact-me">Contact me</Link> to talk about building your own website, <Link to="/blog">read my blog,</Link> or <a href="https://soundcloud.com/jayalbertomusic">check out some music I've written</a>!
+                <Link to="/contact-me">Contact me</Link> to talk about building your own website, <Link to="/blog">read my blog,</Link> or <a target="_blank" rel="noreferrer" href="https://soundcloud.com/jayalbertomusic">check out some music I've written</a>!
             </p>
         </div>
     </Layout>

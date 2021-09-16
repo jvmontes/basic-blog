@@ -4,7 +4,7 @@ import * as styles from "./headerNav.module.css"
 
 import { IconContext } from "react-icons"
 
-import { FiMail, FiCamera, FiHome, FiShoppingBag, FiBook, FiUser } from 'react-icons/fi'
+import { FiBook, FiUser } from 'react-icons/fi'
 
 const activeStyles = {
     fontWeight: 'bold',
