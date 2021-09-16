@@ -9,7 +9,7 @@ const BlogPage = () => {
 
     const data = useStaticQuery(graphql`
         query BlogPosts {
-            allMarkdownRemark {
+            allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC}) {
                 nodes {
                     frontmatter {
                         title
