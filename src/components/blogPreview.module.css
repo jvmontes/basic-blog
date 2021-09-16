@@ -29,22 +29,3 @@
 .title:hover {
     color: #B2289B;
 }
-
-.button {
-    display: inline-block;
-    font-weight: 500;
-    padding: 0 20px;
-    border-radius: 18px;
-    border: 1px solid #e6e6e6;
-    height: 36px;
-    line-height: 36px;
-    font-size: 13px;
-
-    color: #1a1a1a;
-    text-decoration: none;
-    transition: all 0.2s ease;
-}
-
-.button:hover {
-    color: #B2289B;
-}
