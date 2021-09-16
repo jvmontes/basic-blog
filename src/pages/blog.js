@@ -15,7 +15,7 @@ const BlogPage = () => {
                         title
                         excerpt
                         slug
-                        date(fromNow: true)
+                        date(formatString: "MMMM DD, YYYY")
                     }
                 }
             }
@@ -37,7 +37,7 @@ const BlogPage = () => {
                 <Seo title="Blog" />
                 <h1>My Thoughts</h1>
                 <p>Thanks for visiting this page. You could've been anywhere else on the internet, but you're here. For that, I thank you. Below you'll find posts I've written. I hope you enjoy! If you'd like to reach me, please don't hesitate to use the contact form <Link to="/contact-me">here.</Link></p>
-                <ul> {blogPreviews} </ul>
+                <div> {blogPreviews} </div>
             </div>
         </Layout>
     )

@@ -6,10 +6,10 @@ import * as styles from "../components/blogPreview.module.css";
 const BlogPreview = ({ blogTitle, excerpt, date, slug, avatar }) => (
     <div className={styles.blog}>
         <div className={styles.description}>
-            <h2 className={styles.title}><Link to={slug}>{blogTitle}</Link></h2>
             <h6>{date}</h6>
+            <h2 className={styles.title}><Link to={slug}>{blogTitle}</Link></h2>
             <p className={styles.excerpt}>{excerpt}</p>
-            <p><Link to={slug}>Read more...</Link></p>
+            <p><Link to={slug}>Read more</Link></p>
         </div>
     </div>
 )
