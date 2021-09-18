@@ -2,7 +2,7 @@ import React from 'react'
 import * as styles from './emailSignup.module.css'
 
 import { useBreakpoint } from 'gatsby-plugin-breakpoints'
-import "../styles/global.css"
+import "../../styles/global.css"
 
 const EmailSignup = () => {
     const breakpoints = useBreakpoint();

@@ -3,6 +3,7 @@ import React from 'react'
 import * as styles from "./homeHeader.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 import SocialLinks from "../components/socialLinks"
+import CommonButton from "../components/common/commonButton"
 
 const homeHeader = () => {
     return (
@@ -12,11 +13,11 @@ const homeHeader = () => {
                     Jorge Viramontes
                 </div>
 
-                <p className={styles.tagline}>
+                <h4 className={styles.tagline}>
                     Entrepreneur, Engineer, and Empath
-                </p>
+                </h4>
 
-                <div className={styles.description}>
+                <div>
                     <p>
                         Jorge brings over seven years of Fortune 500 consulting experience to the digital entrepreneurship realm from Chicago, IL.
                     </p>
@@ -29,7 +30,7 @@ const homeHeader = () => {
                         When he's not coding or creating content, he loves traveling, meeting new people, and listening to all kinds of music.
                     </p>
 
-                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1uirgA5NGFs7y6t-9TP2e1WvkQkfufLXm/view?usp=sharing">View my resume here.</a>
+                    <CommonButton buttonTitle="View My Resume" slug="https://drive.google.com/file/d/1uirgA5NGFs7y6t-9TP2e1WvkQkfufLXm/view?usp=sharing" isGatsbyLink={false}></CommonButton>
                 </div>
 
                 <SocialLinks></SocialLinks>

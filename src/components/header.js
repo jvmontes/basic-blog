@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
         formats={["AUTO", "WEBP", "AVIF"]} alt="JV Logo"
       />
     </Link>
+    <HeaderNav></HeaderNav>
   </header>
 )
 

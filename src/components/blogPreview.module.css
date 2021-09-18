@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     margin: 4px auto 12px auto;
+
+    padding: 0 20px;
+    border-radius: 9px;
+    border: 1px solid #e6e6e6;
 }
 
 .cover {
@@ -13,15 +17,15 @@
 
 .description {
     flex: 1;
-    margin-left: 18px;
-    padding: 12px;;
-}
-
-.excerpt {
-    margin: 0;
+    padding: 1rem;
 }
 
 .title {
-    margin: 0 0 12px 0;
-    padding: 0;
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.title:hover {
+    color: #B2289B;
 }
