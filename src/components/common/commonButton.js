@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import * as styles from "./commonButton.module.css";
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const CommonButton = ({ buttonTitle, slug, isGatsbyLink }) => {
 
@@ -8,7 +9,7 @@ const CommonButton = ({ buttonTitle, slug, isGatsbyLink }) => {
         <div>
             {isGatsbyLink
                 ? <p><Link to={slug} className={styles.button}>{buttonTitle}</Link></p>
-                : <a target="_blank" rel="noreferrer" href={slug} className={styles.button}>{buttonTitle}</a>
+                : <OutboundLink target="_blank" rel="noreferrer" href={slug} className={styles.button}>{buttonTitle}</OutboundLink>
             }
         </div>
     )

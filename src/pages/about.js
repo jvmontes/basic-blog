@@ -4,6 +4,8 @@ import Seo from "../components/seo";
 import { Link } from "gatsby"
 import "../styles/global.css"
 
+import { OutboundLink } from "gatsby-plugin-google-gtag"
+
 const AboutPage = () => (
     <Layout>
         <div className="standardSpacing">
@@ -33,7 +35,7 @@ const AboutPage = () => (
             </p>
 
             <p>
-                <Link to="/contact-me">Contact me</Link> to talk about building your own website, <Link to="/blog">read my blog,</Link> or <a target="_blank" rel="noreferrer" href="https://soundcloud.com/jayalbertomusic">check out some music I've written</a>!
+                <Link to="/contact-me">Contact me</Link> to talk about building your own website, <Link to="/blog">read my blog,</Link> or <OutboundLink target="_blank" rel="noreferrer" href="https://soundcloud.com/jayalbertomusic">check out some music I've written</OutboundLink>!
             </p>
         </div>
     </Layout>

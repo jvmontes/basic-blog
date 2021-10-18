@@ -8,6 +8,7 @@ import HomeHeader from "../components/homeHeader"
 import EmailSignup from "../components/forms/emailSignup"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 const IndexPage = () => (
   <Layout>
@@ -31,7 +32,7 @@ const IndexPage = () => (
           <li>Unlimited customization and freedom around design.</li>
           <li>Lightweight implementation using simple Javascript.</li>
           <li>Quickly deploy iterative updates.</li>
-          <li>It's all open source, and you can check it out here on <a rel="noreferrer" target="_blank" href="https://github.com/jvmontes/basic-blog">Github</a>.</li>
+          <li>It's all open source, and you can check it out here on <OutboundLink rel="noreferrer" target="_blank" href="https://github.com/jvmontes/basic-blog">Github</OutboundLink>.</li>
         </ul>
 
       </div>
