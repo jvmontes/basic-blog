@@ -1,8 +1,8 @@
 ---
-slug: "/technology/how-i-built-this"
+slug: "/blog/engineering/how-i-built-this"
 date: "2021-07-02"
 title: "How I Built This"
-tags: ["Developer", "Software Development", "Career", "Journey", "Blog"]
+tags: ["Engineering" "Developer", "Software Development", "Career", "Journey", "Blog"]
 excerpt: "Here's a little bit about how I built this site you're looking at now."
 ---
 

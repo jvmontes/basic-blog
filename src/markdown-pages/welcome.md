@@ -1,8 +1,8 @@
 ---
-slug: "/welcome"
+slug: "/blog/leadership/welcome"
 date: "2021-08-11"
 title: "Welcome!"
-tags: ["Developer", "Software Development", "Career", "Journey"]
+tags: ["Leadership", "Developer", "Software Development", "Career", "Career Journey"]
 excerpt: "Welcome to my portfolio site. I'd like to share with you the motivation behind this site. You could have been anywhere else on the internet, but I'm glad you are here."
 ---
 
