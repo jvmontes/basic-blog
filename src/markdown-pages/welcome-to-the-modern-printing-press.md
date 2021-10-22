@@ -1,8 +1,8 @@
 ---
-slug: "/technology/welcome-to-the-modern-printing-press"
+slug: "/blog/engineering/welcome-to-the-modern-printing-press"
 date: "2021-03-11"
 title: "Welcome to the Modern Printing Press"
-tags: ["Developer", "Software Development", "Printing Press"]
+tags: ["Engineering", "Developer", "Software Development", "Printing Press"]
 excerpt: "Welcome to the modern printing press, where your ideas can travel around the world in seconds."
 ---
 

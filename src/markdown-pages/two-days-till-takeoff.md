@@ -1,8 +1,8 @@
 ---
-slug: "/blog/two-days-till-takeoff"
+slug: "/blog/leadership/two-days-till-takeoff"
 date: "2021-08-17"
 title: "Two Days Til Takeoff"
-tags: ["Journey", "Travel", "Reflection", "Gratitude"]
+tags: ["Leadership", "Journey", "Travel", "Reflection", "Gratitude"]
 excerpt: "Tuesday, August 17th
 2 days until take-off. 
 
