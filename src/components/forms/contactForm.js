@@ -1,25 +1,30 @@
 import * as React from "react"
-import * as styles from "./contactForm.module.css"
+import * as styles from "./contactForm.module.scss"
 
 const ContactForm = () => (
     <form className={styles.formContainer} name="contact" method="post" data-netlify="true" action="/contact-success" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
         <div className={styles.nameContainer}>
-            <p>
-                <label>First Name: <input type="text" name="firstName" /></label>
-            </p>
-            <p>
-                <label>Last Name: <input type="text" name="lastName" /></label>
-            </p>
+            <div className={styles.nameItem}>
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" />
+            </div>
+            <div className={styles.nameItem}>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" />
+            </div>
         </div>
 
-        <p>
-            <label>Email: <input type="email" name="emailAddress" size="30" /></label>
-        </p>
-        <p>
-            <label>Message: <br></br> <textarea name="message" className={styles.formMessage}></textarea></label> 
-            
-        </p>
+        <div className={styles.formItem}>
+            <label>Email</label>
+            <input type="email" name="emailAddress" size="26" />
+        </div>
+
+        <div className={styles.formItem}>
+            <label>Message</label> 
+            <textarea name="message" className={styles.formMessage}></textarea>
+        </div>
+
         <p>
             <button type="submit">Send</button>
         </p>
