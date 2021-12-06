@@ -4,7 +4,7 @@ import * as styles from "./headerNav.module.css"
 
 import { IconContext } from "react-icons"
 
-import { FiBook, FiUser } from 'react-icons/fi'
+import { FiBook, FiUser, FiMail } from 'react-icons/fi'
 
 const activeStyles = {
     fontWeight: 'bold',
@@ -28,6 +28,13 @@ const HeaderNav = () => (
                 <span><FiUser></FiUser></span>
             </IconContext.Provider>
             About
+        </Link>
+
+        <Link to="/contact-me" className={styles.linkContainer} activeStyle={activeStyles}>
+            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
+                <span><FiMail></FiMail></span>
+            </IconContext.Provider>
+            Contact
         </Link>
 
         {/* 

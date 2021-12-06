@@ -34,7 +34,7 @@
 
 @media screen and (max-width: 700px) {
     .linkContainer {
-        min-width: 100px;
+        min-width: 50px;
 
         margin: 0.5rem;
         border: none;

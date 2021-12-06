@@ -1,5 +1,5 @@
 ---
-slug: "/finances/relationship-to-money"
+slug: "/blog/finances/relationship-to-money"
 date: "2021-03-05"
 title: "Relationship To Money"
 tags: ["Finances", "Financial Literacy", "Savings", "Income", "Expenses", "Debt", "Money Smart"]

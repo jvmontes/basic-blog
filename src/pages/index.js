@@ -5,7 +5,6 @@ import "../styles/index.css"
 
 import IconCollection from "../components/iconCollection"
 import HomeHeader from "../components/homeHeader"
-import EmailSignup from "../components/forms/emailSignup"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -36,8 +35,6 @@ const IndexPage = () => (
 
       </div>
     </div>
-
-    <EmailSignup></EmailSignup>
 
   </Layout>
 )
