@@ -7,7 +7,7 @@ import { IconContext } from "react-icons"
 import { FiBook, FiUser, FiMail } from 'react-icons/fi'
 
 const activeStyles = {
-    fontWeight: 'bold',
+    textDecoration: `underline`,
     color: '#1A1A1A',
     textAlign: 'center'
 }

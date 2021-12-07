@@ -29,7 +29,7 @@
 }
 
 .linkContainer:hover {
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 700px) {

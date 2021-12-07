@@ -21,7 +21,7 @@
 }
 
 .footerLink:hover {
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 .footerComponent {
