@@ -38,7 +38,7 @@ const homeHeader = () => {
 
             <div>
                 <StaticImage
-                    src="../images/hiking.jpg" alt="Headshot of Jorge"
+                    src="../images/jorge-looking-away.jpg" alt="Headshot of Jorge"
                     placeholder="blurred"
                     layout="fixed"
                     width={340}
