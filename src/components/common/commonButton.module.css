@@ -2,11 +2,10 @@
     display: inline-block;
     font-weight: 500;
     padding: 0 20px;
-    border-radius: 18px;
-    border: 1px solid #e6e6e6;
-    height: 36px;
+    border: 1px solid #1a1a1a;
+    height: 38px;
     line-height: 36px;
-    font-size: 13px;
+    font-size: 14px;
 
     color: #1a1a1a;
     text-decoration: none;
@@ -14,5 +13,6 @@
 }
 
 .button:hover {
-    color: #B2289B;
+    color: #fff;
+    background-color: #1a1a1a;
 }

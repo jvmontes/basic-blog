@@ -20,21 +20,21 @@ const HeaderNav = () => (
             <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
                 <span><FiBook></FiBook></span>
             </IconContext.Provider>
-            Blog
+            BLOG
         </Link>
 
         <Link to="/about" className={styles.linkContainer} activeStyle={activeStyles}>
             <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
                 <span><FiUser></FiUser></span>
             </IconContext.Provider>
-            About
+            ABOUT
         </Link>
 
         <Link to="/contact-me" className={styles.linkContainer} activeStyle={activeStyles}>
             <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
                 <span><FiMail></FiMail></span>
             </IconContext.Provider>
-            Contact
+            CONTACT
         </Link>
 
         {/* 
