@@ -80,6 +80,26 @@ const IndexPage = () => (
       </div>
     </div>
 
+    <div className="bioContainer">
+      <div className="copyContent">
+
+        <h1>A Final Word</h1>
+
+        <p>Hey, I just wanted to say, I really appreciate that you came and checked out my website. From one human to another, it means a lot. 
+          I believe that gratitude is what grounds us in our lives and if we're able to express and accept gratitude, it will immensly increase the quality of our lives.
+        </p>
+
+        <p>
+          This project has taken me a long time to build, but I'm happy with where it stands. Utilizing the modern tools available to us, I was able to build a modern-looking website 
+          to authentically share my story, for a low cost and less effort than you'd think. I have the freedom to add whatever I see fit, and I'm able to really share myself authentically.
+          I hope you enjoyed your stay, and I hope you find peace, love, and light for yourself in your life. And I really mean that.
+        </p>
+
+        <p>Peace ✌🏼</p>
+      </div>
+      
+    </div>
+
   </Layout>
 )
 
