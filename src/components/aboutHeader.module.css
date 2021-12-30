@@ -1,0 +1,47 @@
+.aboutBanner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 4rem 4rem 0 4rem;
+}
+
+.aboutContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0rem 4rem;
+}
+
+.bannerDetails {
+    max-width: 476px;
+}
+
+.bannerImage {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutBanner {
+        padding: 1rem;
+        margin: .5rem auto;
+    }
+
+    .bannerImage {
+        margin: auto;
+    }
+}
+
+.title {
+    margin-bottom: 1.45rem;
+
+    text-decoration: none;
+    font-family: "Krona One";
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
