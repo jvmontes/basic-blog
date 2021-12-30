@@ -23,14 +23,14 @@ const homeHeader = () => {
                     </p>
 
                     <p>
-                        He's the owner of Alacrán Digital Services, a digital media company focused on growing small businesses via personal relationships and coaching.
+                        He's the owner of Alacrán Digital Services, a company focused on growing small businesses by building simple, powerful websites.
                     </p>
 
                     <p>
-                        When he's not coding or creating content, he loves traveling, meeting new people, and listening to all kinds of music.
+                        When he's not coding or building his business, he loves traveling, meeting new people, and listening to all kinds of music.
                     </p>
 
-                    <CommonButton buttonTitle="VIEW RESUME" slug="https://drive.google.com/file/d/1uirgA5NGFs7y6t-9TP2e1WvkQkfufLXm/view?usp=sharing" isGatsbyLink={false}></CommonButton>
+                    <CommonButton buttonTitle="READ MORE >" slug="/about" isGatsbyLink={true}></CommonButton>
                 </div>
 
                 <SocialLinks></SocialLinks>
