@@ -4,16 +4,7 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1100px;
-    padding: 4rem 4rem 0 4rem;
-}
-
-.aboutContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1100px;
-    padding: 0rem 4rem;
+    padding: 2rem 2rem 0;
 }
 
 .bannerDetails {
@@ -34,8 +25,8 @@
         margin: auto;
     }
 
-    .aboutContent {
-        padding: 0 1rem;
+    .bannerDetails {
+        margin-bottom: 1.45rem;
     }
 }
 

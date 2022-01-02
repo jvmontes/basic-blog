@@ -35,7 +35,7 @@ const AboutHeader = () => {
                     />
                 </div>
             </div>
-            <div className={styles.aboutContent}>
+            <div className={styles.aboutBanner}>
                 <p>
                     My goal is to bring all of the years of experience and expertise I've accumulated through my technical career to bring a best-in-class service to all my clients. By hyper-focusing on creating a great process and workflow that consistenly exceeds client expectations, while also building close, personal relationships with those I work with, I hope to build a successful business I can carry with me through the upcoming years as we settle into a world post-pandemic.
                 </p>

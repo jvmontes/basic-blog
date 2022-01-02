@@ -36,7 +36,7 @@ const homeHeader = () => {
                 <SocialLinks></SocialLinks>
             </div>
 
-            <div>
+            <div className={styles.bannerImage}>
                 <StaticImage
                     src="../images/jorge-looking-away.jpg" alt="Headshot of Jorge"
                     placeholder="blurred"
