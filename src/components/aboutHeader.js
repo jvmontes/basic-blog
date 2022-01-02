@@ -26,7 +26,7 @@ const AboutHeader = () => {
 
                 <div className={styles.bannerImage}>
                     <StaticImage
-                        src="../images/jorge-suit.jpg" alt="Headshot of Jorge"
+                        src="../images/jorge-smiling-small.jpg" alt="Headshot of Jorge"
                         width={340}
                         formats={["AUTO", "WEBP", "AVIF"]}
                         style={{
