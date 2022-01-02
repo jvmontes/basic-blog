@@ -16,6 +16,10 @@
         padding: 1rem;
         margin: .5rem auto;
     }
+
+    .bannerDetails {
+        margin-bottom: 1.45rem;
+    }
 }
 
 .title {
