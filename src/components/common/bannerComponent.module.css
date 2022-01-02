@@ -20,15 +20,17 @@
 
 .subtitle {
     line-height: 1.1;
+    font-family: "Krona One";
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
 }
 
 .contentContainer {
-    max-width: 476px;
+    max-width: 584px;
 }
 
 .image {
-    display: flex;
-    margin: auto auto 1.45rem;
+    margin: auto 0;
 }
 
 @media screen and (max-width: 600px) {
