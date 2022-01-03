@@ -7,17 +7,14 @@ const BannerComponent = ({ titleText, subtitleText, firstBlurbText, secondBlurbT
     return (
         <div className={bannerContainer}>
             <div className={contentContainer}>
-                {/* Wrap in if text is present from parameters */}
                 <div className={title}>
                     {titleText}
                 </div>
 
-                {/* Wrap in if text is present from parameters */}
                 <h4 className={subtitle}>
                     {subtitleText}
                 </h4>
 
-                {/* Wrap in if text is present from parameters */}
                 <p>
                     {firstBlurbText}
                 </p>
@@ -29,9 +26,7 @@ const BannerComponent = ({ titleText, subtitleText, firstBlurbText, secondBlurbT
 
             {gatsbyImageData !== null &&
                 <div className={image}>
-                    <GatsbyImage
-                        image={gatsbyImageData} alt={imageAlt}
-                    >
+                    <GatsbyImage image={gatsbyImageData} alt={imageAlt}>
                     </GatsbyImage>
                 </div>
             }
