@@ -10,6 +10,23 @@ import Seo from "../components/seo"
 
 import CommonButton from "../components/common/commonButton"
 
+const soundCloudTextStyle = {
+  fontSize: `14px`,
+  lineBreak: `anywhere`,
+  wordBreak: `normal`,
+  overflow: "hidden",
+  whiteSpace: `nowrap`,
+  textOverflow: `ellipsis`,
+  fontFamily: `Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif`,
+  fontWeight: `100`,
+  color: "#000", 
+  textDecoration: "none"
+}
+
+const soundCloudComponentStyle = {
+  marginBottom: `2rem`
+}
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
@@ -21,23 +38,13 @@ const IndexPage = () => (
 
         <h1>Websites</h1>
 
-        <p>After quitting from my consulting job, I decided that I wanted to build websites myself and gain some additional experience building front-end experiences.
-          I found a pretty awesome tool that allows me to easily do this, and here you can see some of the websites I've built for clients. This allows me to practice my skill
-          while also providing a valuable service to others. Check out my work here, and make sure to send me a message if you're interested in building your own site.
-          You can learn more about my company and what we build by checking out our website here.
+        <p>In 2021, I resigned from my career in corporate consulting and wanted to help local business owners build their own website. This allowed me to gain some additional experience building front-end experiences while also providing a valuable service to others.
+          Gatsby is an intuitive tool that leverages the JAMstack to quickly build safe, scalable websites in a modern way using React and GraphQL. Check out some of the websites I've built for some pretty cool organizations.
         </p>
 
-        <div className="contentContainer">
-          <div className="gridContainer">
-            <div>Device Fix Inc</div>
-            <div>Alacrán Digital Services</div>
-            <div>Art of Balance Fund</div>
-          </div>
-          <div className="centering">
-            <CommonButton buttonTitle="VIEW ALL" slug="" isGatsbyLink={true}></CommonButton>
-          </div>
+        <div>
+          <CommonButton buttonTitle="COMING SOON" slug="/" isGatsbyLink={true}></CommonButton>
         </div>
-
 
       </div>
     </div>
@@ -55,7 +62,32 @@ const IndexPage = () => (
           This is my exploration into what's possible in my own life. I hope you enjoy, feel free to listen to all my music here.
         </p>
 
+        <div style={soundCloudComponentStyle}>
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/732231520&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <div style={soundCloudTextStyle}>
+            <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
+            <a href="https://soundcloud.com/jayalbertomusic/when-i-try-to-speak-2019-mix" title="When I Try To Speak (2019 Mix)" target="_blank" style={{ color: "#000", textDecoration: "none" }}>When I Try To Speak (2019 Mix)</a>
+          </div>
+        </div>
+
+        <div style={soundCloudComponentStyle}>
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/367405325&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <div style={soundCloudTextStyle}>
+            <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
+            <a href="https://soundcloud.com/jayalbertomusic/silver-lining" title="Silver Lining [Demo]" target="_blank" style={{ color: "#000", textDecoration: "none" }}>Silver Lining [Demo]</a>
+          </div>
+        </div>
+
+        <div style={soundCloudComponentStyle}>
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308215759&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          <div style={soundCloudTextStyle}>
+            <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
+            <a href="https://soundcloud.com/jayalbertomusic/ready-set" title="Ready, Set" target="_blank" style={{ color: "#000", textDecoration: "none" }}>Ready, Set</a>
+          </div>
+        </div>
+
       </div>
+
     </div>
 
     <div className="bioContainer">
@@ -85,19 +117,19 @@ const IndexPage = () => (
 
         <h1>A Final Word</h1>
 
-        <p>Hey, I just wanted to say, I really appreciate that you came and checked out my website. From one human to another, it means a lot. 
+        <p>Hey, I just wanted to say, I really appreciate that you came and checked out my website. From one human to another, it means a lot.
           I believe that gratitude is what grounds us in our lives and if we're able to express and accept gratitude, it will immensly increase the quality of our lives.
         </p>
 
         <p>
-          This project has taken me a long time to build, but I'm happy with where it stands. Utilizing the modern tools available to us, I was able to build a modern-looking website 
+          This project has taken me a long time to build, but I'm happy with where it stands. Utilizing the modern tools available to us, I was able to build a modern-looking website
           to authentically share my story, for a low cost and less effort than you'd think. I have the freedom to add whatever I see fit, and I'm able to really share myself authentically.
           I hope you enjoyed your stay, and I hope you find peace, love, and light for yourself in your life. And I really mean that.
         </p>
 
         <p>Peace ✌🏼</p>
       </div>
-      
+
     </div>
 
   </Layout>
