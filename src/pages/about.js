@@ -34,8 +34,6 @@ const AboutPage = () => {
         }
     `)
 
-    console.log(imageInfo);
-
     return (
         <Layout >
             <div>
