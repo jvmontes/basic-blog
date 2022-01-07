@@ -1,17 +1,6 @@
 .headerNav {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 700px) {
-    .headerNav {
-        justify-content: flex-start;
-
-        padding: .2rem;
-        margin: 0;
-    }
 }
 
 .linkContainer {
@@ -25,11 +14,12 @@
     
     text-decoration: none;
     text-align: center;
-    color: #1A1A1A;
+    font-size: .8rem;
+    color: #083f45;
 }
 
 .linkContainer:hover {
-    font-weight: bold;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 700px) {

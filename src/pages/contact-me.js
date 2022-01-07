@@ -6,7 +6,7 @@ import "../styles/global.css"
 
 const ContactPage = () => (
     <Layout>
-        <div style={{ maxWidth: `620px`, margin: `0 auto`, padding: `1rem 1.5rem`}}>
+        <div style={{ maxWidth: `720px`, margin: `0 auto`, padding: `1rem 1.5rem`}}>
             <Seo title="Contact Me" />
             <h1>Contact Me</h1>
             <p>

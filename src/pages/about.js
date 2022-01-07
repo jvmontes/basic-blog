@@ -1,42 +1,77 @@
 import * as React from "react"
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { Link } from "gatsby"
+import BannerComponent from "../components/common/bannerComponent"
 import "../styles/global.css"
+import { useStaticQuery } from "gatsby";
+import { graphql } from "gatsby";
 
-const AboutPage = () => (
-    <Layout>
-        <div className="standardSpacing">
-            <Seo title="About" />
-            <h1>About Me</h1>
-            <h3>
-                I'm a software engineer, musician, and writer.
-            </h3>
+const bannerData = {
+    title: "About Me",
+    subtitle: "Hi! Thanks for being here.",
+    firstBlurbText: `
+    My name is Jorge, and I want to build a better future for our world, together. I've worked for over seven years as a technical consultant, helping Fortune 500 businesses adopt Agile methodologies in their software development practices. I've worked on teams building iPhone apps, iPad apps, Angular web apps, and Java APIs. I've dabbled in the Internet of Things, and understand the basics of machine learning and AI.`,
+    secondBlurbText: `
+    After all those experiences, I've chosen that my renewed focus for 2022 is to build great front-end experiences for small businesses and build the tools they need to excel in a digital-first economy. I focus on website building, content management systems, customer relationship management, website design, and search engine optimization.`,
+    imageAlt: "Headshot of Jorge",
+}
 
-            <p>Thanks for visiting my website today. Here's a little bit more about me.</p>
-            
-            <p>
-                I was born and raised in Chicago, IL, USA.
-            </p>
+const AboutPage = () => {
 
-            <p>
-                I like to solve problems, write music, share stories, and build systems that work.
-            </p>
-            <p>
-                I think we all have a unique story to be told, and it is my passion to share those stories with the world and leave our legacy.
-            </p>
-            <p>
-                I believe in authentic personal connections to unravel the incredible possibilities within each of us.
-            </p>
-            <p>
-                I believe in embracing the future of technology for the <em>betterment and advancement of all humans.</em>
-            </p>
+    const imageInfo = useStaticQuery(graphql`
+        query AboutPhoto {
+            file ( relativePath:{eq: "jorge-smiling-small.jpg" } ) {
+                childImageSharp {
+                    gatsbyImageData(
+                        width: 340
+                        placeholder: BLURRED
+                        formats: [AUTO, WEBP, AVIF]
+                        layout: FIXED
+                        quality: 100
+                    )
+                }
+            }
+        }
+    `)
 
-            <p>
-                <Link to="/contact-me">Contact me</Link> to talk about building your own website, <Link to="/blog">read my blog,</Link> or <a target="_blank" rel="noreferrer" href="https://soundcloud.com/jayalbertomusic">check out some music I've written</a>!
-            </p>
-        </div>
-    </Layout>
-)
+    return (
+        <Layout >
+            <div>
+                <Seo title="About" />
+                <BannerComponent
+                    titleText={bannerData.title}
+                    subtitleText={bannerData.subtitle}
+                    firstBlurbText={bannerData.firstBlurbText}
+                    secondBlurbText={bannerData.secondBlurbText}
+                    gatsbyImageData={imageInfo.file.childImageSharp.gatsbyImageData}
+                    imageAlt={bannerData.imageAlt}
+                ></BannerComponent>
+
+                <div className="content">
+                    <p>
+                        My goal is to bring all of the years of experience and expertise I've accumulated through my technical career to bring a best-in-class service to all my clients. By hyper-focusing on creating a great process and workflow that consistenly exceeds client expectations, while also building close, personal relationships with those I work with, I hope to build a successful business I can carry with me through the upcoming years as we settle into a world post-pandemic.
+                    </p>
+
+                    <p>
+                        Another goal of mine is to provide my engineering and leadership skills as a service to an organization to better advance us all as a human society. Ultimately, I want to ensure I am "building business for good."
+                    </p>
+
+                    <p>
+                        As I grow through life and faithfully step into my 30's, I am also taking on a spiritual journey, as I look to deepen my relationship to the source energy, God, the universe, and live life mindfully and be present. Meditation, mindfulness, and gratitude are a huge part of who I am today.
+                    </p>
+
+                    <p>
+                        If you're interested in discussing a website you're looking to update or build but just don't have the time or resources available, I'd love to learn more and see if we're a good fit. Send me a message, and let's talk!
+                    </p>
+
+                    <p>
+                        Once again, thanks for being here. I hope you have a lovely day.
+                    </p>
+                </div>
+            </div>
+        </Layout >
+    )
+
+}
 
 export default AboutPage

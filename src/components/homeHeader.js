@@ -23,29 +23,28 @@ const homeHeader = () => {
                     </p>
 
                     <p>
-                        He's the owner of Alacrán Digital Services, a digital media company focused on growing small businesses via personal relationships and coaching.
+                        He's the owner of Alacrán Digital Services, a company focused on growing small businesses by building simple, powerful websites.
                     </p>
 
                     <p>
-                        When he's not coding or creating content, he loves traveling, meeting new people, and listening to all kinds of music.
+                        When he's not coding or building his business, he loves traveling, meeting new people, and listening to all kinds of music.
                     </p>
 
-                    <CommonButton buttonTitle="View My Resume" slug="https://drive.google.com/file/d/1uirgA5NGFs7y6t-9TP2e1WvkQkfufLXm/view?usp=sharing" isGatsbyLink={false}></CommonButton>
+                    <CommonButton buttonTitle="READ MORE >" slug="/about" isGatsbyLink={true}></CommonButton>
                 </div>
 
                 <SocialLinks></SocialLinks>
             </div>
 
-            <div>
+            <div className={styles.bannerImage}>
                 <StaticImage
-                    src="../images/hiking.jpg" alt="Headshot of Jorge"
+                    src="../images/jorge-looking-away.jpg" alt="Headshot of Jorge"
                     placeholder="blurred"
                     layout="fixed"
                     width={340}
                     formats={["AUTO", "WEBP", "AVIF"]}
                     style={{
-                        margin: `auto auto 1.45rem`,
-                        border: `2px solid black`
+                        margin: `auto auto 1.45rem`
                     }}
                 />
             </div>
