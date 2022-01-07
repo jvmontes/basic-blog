@@ -78,8 +78,6 @@ My focus has centered around mindfulness, intention, and deliberate action towar
 
 ### *Do you want to explore how to live a more fulfilling life?*
 
-[Schedule a 15-minute intro call with me](https://calendly.com/jorgeviramontes/on-on-one) to discover the possibilities available for you in your life. 
-
 **When you get closer to your core and can authentically acknowledge who you are, you are able to have incredible power in designing the lifestyle you choose.**
 
 It takes commitment, time, and energy, yes; but on the other side of this, youâ€™ll be able to see where you commit your time, energy, and be *deeply satisfied* with it, knowing that you're building the lifestyle you love and want to live.
@@ -87,5 +85,3 @@ It takes commitment, time, and energy, yes; but on the other side of this, youâ€
 Everyday we are here is a gift.
 
 It's my mission to make sure everybody lives their life knowing that truth. 
-
-[Let's talk.](https://calendly.com/jorgeviramontes/on-on-one)
