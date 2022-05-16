@@ -55,6 +55,17 @@ const IndexPage = () => {
           )
         }
       }
+      restoryingMobile: file(relativePath: {eq: "restorying-website.png"}) {
+        childImageSharp {
+          gatsbyImageData(
+            width: 300
+            placeholder: BLURRED
+            formats: [AUTO, WEBP, AVIF]
+            layout: FIXED
+            quality: 100
+          )
+        }
+      }
     }
 `)
 
@@ -77,12 +88,14 @@ const IndexPage = () => {
           <div className="websitesWrapper">
             <WebsiteFeature name="Device Fix Inc." 
             gatsbyImageData={imageInfo.deviceFix.childImageSharp.gatsbyImageData} 
+            mobileGatsbyImageData={imageInfo.deviceFix.childImageSharp.gatsbyImageData} 
             imageAlt="Image of the Device Fix Inc. Homepage"
             slug="https://www.devicefixinc.com" 
             description="Device Fix Inc. is located on 18th street in the Pilsen neighborhood of Chicago. They had a Facebook and Instagram page, but did not yet have a website landing page." ></WebsiteFeature>
             
             <WebsiteFeature name="Restorying Co-op" 
             gatsbyImageData={imageInfo.restorying.childImageSharp.gatsbyImageData} 
+            mobileGatsbyImageData={imageInfo.restoryingMobile.childImageSharp.gatsbyImageData}
             imageAlt="Image of the Restorying Co-op Homepage"
             slug="https://www.restoryingcoop.com" 
             description="Restorying Co-op was an organization that embraced the change from the pandemic. They had a placeholder site on SquareSpace and needed someone to build it out to accurately portray their organization and the work they do." ></WebsiteFeature>
@@ -105,26 +118,26 @@ const IndexPage = () => {
           </p>
 
           <div style={soundCloudComponentStyle}>
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/732231520&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe title="when-i-try-to-speak" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/732231520&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             <div style={soundCloudTextStyle}>
-              <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
-              <a href="https://soundcloud.com/jayalbertomusic/when-i-try-to-speak-2019-mix" title="When I Try To Speak (2019 Mix)" target="_blank" style={{ color: "#000", textDecoration: "none" }}>When I Try To Speak (2019 Mix)</a>
+              <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
+              <a href="https://soundcloud.com/jayalbertomusic/when-i-try-to-speak-2019-mix" title="When I Try To Speak (2019 Mix)" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: "none" }}>When I Try To Speak (2019 Mix)</a>
             </div>
           </div>
 
           <div style={soundCloudComponentStyle}>
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/367405325&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe title="silver-lining" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/367405325&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             <div style={soundCloudTextStyle}>
-              <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
-              <a href="https://soundcloud.com/jayalbertomusic/silver-lining" title="Silver Lining [Demo]" target="_blank" style={{ color: "#000", textDecoration: "none" }}>Silver Lining [Demo]</a>
+              <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
+              <a href="https://soundcloud.com/jayalbertomusic/silver-lining" title="Silver Lining [Demo]" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: "none" }}>Silver Lining [Demo]</a>
             </div>
           </div>
 
           <div style={soundCloudComponentStyle}>
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308215759&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <iframe title="ready-set" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/308215759&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             <div style={soundCloudTextStyle}>
-              <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
-              <a href="https://soundcloud.com/jayalbertomusic/ready-set" title="Ready, Set" target="_blank" style={{ color: "#000", textDecoration: "none" }}>Ready, Set</a>
+              <a href="https://soundcloud.com/jayalbertomusic" title="J. Alberto" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: "none" }}>J. Alberto</a> ·
+              <a href="https://soundcloud.com/jayalbertomusic/ready-set" title="Ready, Set" target="_blank" rel="noreferrer" style={{ color: "#000", textDecoration: "none" }}>Ready, Set</a>
             </div>
           </div>
 
@@ -148,7 +161,7 @@ const IndexPage = () => {
             <li>Unlimited customization and freedom around design.</li>
             <li>Lightweight implementation using simple Javascript.</li>
             <li>Quickly deploy iterative updates.</li>
-            <li>It's all open source, and you can check it out here on <a rel="noreferrer" target="_blank" href="https://github.com/jvmontes/basic-blog">Github</a>.</li>
+            <li>It's all open source, and you can check it out here on <a target="_blank" rel="noreferrer" href="https://github.com/jvmontes/basic-blog">Github</a>.</li>
           </ul>
 
         </div>
