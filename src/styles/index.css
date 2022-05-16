@@ -9,7 +9,7 @@
 .copyContent {
     margin: 0 auto;
     max-width: 960px;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
 }
 
 @media screen and (max-width: 600px) {

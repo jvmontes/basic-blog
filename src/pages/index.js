@@ -36,7 +36,7 @@ const IndexPage = () => (
     <div className="bioContainer">
       <div className="copyContent">
 
-        <h1>Websites</h1>
+        <h1 style={{ textAlign: `center` }}>Websites</h1>
 
         <p>In 2021, I resigned from my career in corporate consulting and wanted to help local business owners build their own website. This allowed me to gain some additional experience building front-end experiences while also providing a valuable service to others.
           Gatsby is an intuitive tool that leverages the JAMstack to quickly build safe, scalable websites in a modern way using React and GraphQL. Check out some of the websites I've built for some pretty cool organizations.
@@ -52,7 +52,7 @@ const IndexPage = () => (
     <div className="bioContainer">
       <div className="copyContent">
 
-        <h1>Music</h1>
+        <h1 style={{ textAlign: `center` }}>Music</h1>
 
         <p>I've been playing music since 2005, when I learned how to play the guitar at lessons offered through the church choir.
           After that, some friends and I formed a band by the name of Makeshift and played several shows at different venues throughout Chicago.
@@ -93,7 +93,7 @@ const IndexPage = () => (
     <div className="bioContainer">
       <div className="copyContent">
 
-        <h1>I built this website from the ground up.</h1>
+        <h1 style={{ textAlign: `center` }}>I built this website from the ground up.</h1>
 
         <p>Here the different technologies I used to build this site:</p>
       </div>
@@ -115,7 +115,7 @@ const IndexPage = () => (
     <div className="bioContainer">
       <div className="copyContent">
 
-        <h1>A Final Word</h1>
+        <h1 style={{ textAlign: `center` }}>A Final Word</h1>
 
         <p>Hey, I just wanted to say, I really appreciate that you came and checked out my website. From one human to another, it means a lot.
           I believe that gratitude is what grounds us in our lives and if we're able to express and accept gratitude, it will immensly increase the quality of our lives.
