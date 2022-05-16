@@ -6,7 +6,7 @@ import CommonButton from "./common/commonButton";
 
 const WebsiteFeature = ({ name, slug, gatsbyImageData, mobileGatsbyImageData, imageAlt, description }) => (
 	<div className={styles.container}>
-		<h2 style={{ textAlign: `center` }}>{name}</h2>
+		<h2>{name}</h2>
 		{gatsbyImageData !== null &&
 			<div className={styles.imageContainer}>
 				<GatsbyImage image={gatsbyImageData} alt={imageAlt}>
