@@ -7,6 +7,7 @@ import IconCollection from "../components/iconCollection"
 import HomeHeader from "../components/homeHeader"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import WebsiteFeature from "../components/websiteFeature"
 
 import CommonButton from "../components/common/commonButton"
 
@@ -42,11 +43,12 @@ const IndexPage = () => (
           Gatsby is an intuitive tool that leverages the JAMstack to quickly build safe, scalable websites in a modern way using React and GraphQL. Check out some of the websites I've built for some pretty cool organizations.
         </p>
 
-        <div>
-          <CommonButton buttonTitle="COMING SOON" slug="/" isGatsbyLink={true}></CommonButton>
+        <div className="websitesWrapper">
+          <WebsiteFeature name="Device Fix Inc." slug="https://www.devicefixinc.com" description="Device Fix Inc. is located on 18th street in the Pilsen neighborhood of Chicago. They had a Facebook and Instagram page, but did not yet have a website landing page." ></WebsiteFeature>
+          <WebsiteFeature name="Restorying Co-op" slug="https://www.restoryingcoop.com" description="Restorying Co-op was an organization that embraced the change from the pandemic. They had a placeholder site on SquareSpace and needed someone to build it out to accurately portray their organization and the work they do." ></WebsiteFeature>
         </div>
 
-      </div>
+      </div>  
     </div>
 
     <div className="bioContainer">

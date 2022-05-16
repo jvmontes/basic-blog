@@ -1,0 +1,11 @@
+.container {
+	border: 1px rgb(62, 76, 132) solid;
+	border-radius: 1.25rem;
+	padding: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+	}
+}
