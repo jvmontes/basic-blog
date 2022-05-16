@@ -91,14 +91,14 @@ const IndexPage = () => {
             mobileGatsbyImageData={imageInfo.deviceFix.childImageSharp.gatsbyImageData} 
             imageAlt="Image of the Device Fix Inc. Homepage"
             slug="https://www.devicefixinc.com" 
-            description="Device Fix Inc. is located on 18th street in the Pilsen neighborhood of Chicago. They had a Facebook and Instagram page, but did not yet have a website landing page." ></WebsiteFeature>
+            description="Device Fix Inc. is located on 18th street in the Pilsen neighborhood of Chicago. They had a Facebook and Instagram page, but did not yet have a website landing page. Together, we brought their brand, story, and vision to life on a custom website." ></WebsiteFeature>
             
             <WebsiteFeature name="Restorying Co-op" 
             gatsbyImageData={imageInfo.restorying.childImageSharp.gatsbyImageData} 
             mobileGatsbyImageData={imageInfo.restoryingMobile.childImageSharp.gatsbyImageData}
             imageAlt="Image of the Restorying Co-op Homepage"
             slug="https://www.restoryingcoop.com" 
-            description="Restorying Co-op was an organization that embraced the change from the pandemic. They had a placeholder site on SquareSpace and needed someone to build it out to accurately portray their organization and the work they do." ></WebsiteFeature>
+            description="Restorying Co-op was an organization that embraced the change from the pandemic. They had a placeholder site on SquareSpace and needed someone to build it out to accurately portray their organization and the work they do. In under two months, we created a website that was ready to accept inquiries on their services." ></WebsiteFeature>
           </div>
 
         </div>
