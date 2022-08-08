@@ -40,20 +40,31 @@ Today’s major plan is:
 
 That’s the thought that popped up to me when I took a physical break from typing. I ended up going onto Twitter, tweeting that first bullet point, changed my Twitter profile picture, and clicked on the link in my bio. I had forgotten what the link on my Twitter profile was. Lol haha oopsie
 
-I realized it was a link to https://www.jorgeviramontes.com. This was a site I had created when I was in a very interesting point in my life, midst the COVID-19 pandemic, working from home, and trying to use coding for something I was *passionate* about. 
+I realized it was a link to [my personal website.](https://www.jorgeviramontes.com) This was a site I had created when I was in a very interesting point in my life, midst the COVID-19 pandemic, working from home, and trying to use coding for something I was *passionate* about. 
 
 ## The Technical Stuff
 
-### Headless CMS
-During 2020 & 2021, I started to learn about how I could host what are referred to as “headless websites on a CDN”. Basically put, these are websites that are fully functional with just a single piece of a functional running app. You develop a single “package” using different commands to the computer, and with a couple clicks, you can deploy that app to a custom domain you own. I purchased my domains on Google Domains, and I highly recommend it.
+### Headless CMS and the Jamstack
 
-These applications that are built can be built on top of an Angular, React, or various other Javascript frameworks to put real custom websites out into the real world. No need for expensive website builder subscriptions. 
+During 2020 & 2021, I started to learn about how I could use Content Distribution Networks (CDNs) to host apps using the Jamstack approach to web development. [This article](https://developers.bloomreach.com/blog/2021/headless-cms-and-the-jamstack-explained.html) does a great job of explaining what it is more in-depth! 
+
+Basically put, these are websites that are fully functional with just a single piece of a functional running app. You develop a single “package” using different commands to the computer, and with a couple clicks, you can deploy that app to a custom domain you own. I purchase my domains on Google Domains, and I highly recommend it.
+
+These applications that are built can be built on top of various Javascript frameworks and libraries, such as [Angular](https://angular.io/) or [React](https://reactjs.org/), to put real custom websites out into the real world. 
+
+No need for expensive website builder subscriptions. 
+
+Just purchase a custom domain and bam! You've got a website. 
 
 ### Providers
 
-Some of the tools that offer this are Netlify, Digital Ocean, Amazon Web Services, and Google Cloud Platform. From my experience and research, it was fairly trivial to get a Gatsby web application started, running, and making new blog posts and then hosting it on Netlify with just a few clicks of a button. I tried it out and was pretty happy with the results.
+Some of the tools that offer this are [Netlify](https://www.netlify.com/), [Digital Ocean](https://www.digitalocean.com/), [Amazon Web Services](https://aws.amazon.com/), and [Google Cloud Platform](https://cloud.google.com/). 
 
-From there, it was more-so a question of what different tools and capabilities can I build in, and how does this make sense as a digital container of a space for people to learn about things or get things done. I set off on this journey because I believed that a lot of the features and necessities small to medium-sized businesses need are able to be effectively built in this day and age that converts to automation, efficiency, and creativity.
+From my experience and research, it was fairly trivial to get a [Gatsby](https://www.gatsbyjs.com/) web application started, running, and making new blog posts. Gatsby is a tool built on top of the React framework that allows development teams to deliver Jamstack sites quickly and seamlessly.   
+
+I'm hosting it on Netlify, and started with just a few clicks of a button. I've been pretty happy with the ease, results, and reliability.
+
+From there, it's a question of what different tools and capabilities I can build in, and how this make sense as digital real estate for people to learn about things, or get things done. I set off on this journey because I believed that many of the features small to medium-sized businesses need can be custom-built in this day and age that translates to automation, efficiency, and creativity.
 
 ### Automation
 
@@ -62,21 +73,23 @@ Automation is possible because once a visitor submits a form, we receive an emai
 - offer services that present value
 - provide information that is beneficial to them
 
-### Webhooks
+### Efficiency Via Webhooks
 
-Web hooks are small functions that run on the cloud, or server-less, and can be initiated with some event (like a form receiving a new submission), receive information (such as a name or email address), and perform some action (send an email with a link to a calendar app or links to additional information).
+[Webhooks](https://zapier.com/blog/what-are-webhooks/) are small functions that run on a cloud computing provider and can be initiated with an event (such as a new form entry being submitted), access information (such as a name or email address), and perform some action (send an email with a link to a calendar app or links to additional information).
 
-With web hooks, creating a sequence of processes on some computer can be a huge time saver. Instead of manually typing out certain tasks, you can write some script to take care of that. Basically moving information around. This translates to efficiency. Creating a library of automations, or even having access to them, can be a huge tool in running any business.
+With webhooks, creating a sequence of processes on a computer can be a huge time saver. Instead of manually typing out certain tasks, you can write some script to take care of that. Basically moving information around-- this translates to efficiency. Creating a library of automations, or even having access to them, can be a huge tool in running any business.
 
 ### Improved Development Experience 
 
-As we build our solutions custom and have full control of the websites, we can build them effectively using great tools such as Webflow and Figma to create beautiful, consistent, and effective websites that work. Having creative freedom in the development process encourages teams to do good work and improves the developer experience.
+As we build our solutions custom and have full control of the websites, we can build them effectively using great tools such as [Webflow](https://webflow.com/) and [Figma](https://www.figma.com/) to create beautiful, consistent, and effective websites that work. Having creative freedom in the development process encourages teams to do good work and improves the developer experience.
 
-## Challenges and Affirmations
+## Challenges
 
 One thing that is currently holding me up in my process is that I do not make a habit of opening the development environment for the site and struggle to add new content.
 
 But that changes today!!
+
+## Affirmations
 
 I will create easy, effective processes that reduce barriers to communicate. I will execute with consistency each and every day working towards my goals.
 
@@ -90,7 +103,7 @@ Instead of typing this into some page on Notion, I'm actually typing *this* usin
 
 I cut the middleman out of my process of sharing my thoughts by typing straight into a platform where I can just save and upload, and it is deployed out there on the interwebz 🤙🏼
 
-I'm happy with today's progress. Made some *great* progress on my basic-blog project (which you can see [here]()). I think next would be to add some pictures throughout the blog post, add an option to sign up for a Buttondown newsletter, and have links to all my projects I've got going in the moment. 
+I'm happy with today's progress. Made some *great* progress on my basic-blog project (which you can see [here](https://github.com/jvmontes/basic-blog)). I think next would be to add some pictures throughout the blog post, add an option to sign up for a Buttondown newsletter, and have links to all my projects I've got going in the moment. 
 
 If you're reading this today, congrats! You're an early adopter. I look forward to continued success together. 
 
