@@ -1,5 +1,4 @@
 module.exports = {
-  flags: { PRESERVE_WEBPACK_CACHE: true },
   siteMetadata: {
     title: `Jorge Viramontes`,
     description: `A portfolio to showcase professional work, blog, and music.`,

@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "This is a project to host a custom personal website.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jorge Viramontes <jmontes530@gmail.com>",
   "dependencies": {
     "@fontsource/krona-one": "^4.5.10",
     "@fontsource/montserrat": "^4.5.12",
