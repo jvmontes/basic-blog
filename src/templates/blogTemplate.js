@@ -13,7 +13,9 @@ export default function Template({
       <div className="standardSpacing">
         <div className="blog-post-container">
           <div className="blog-post">
-            <strong>{frontmatter.title}</strong>
+            <h1>
+              <strong>{frontmatter.title}</strong>
+            </h1>
             <br></br>
             <br></br>
             <div
@@ -28,7 +30,7 @@ export default function Template({
 }
 
 export const pageQuery = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       frontmatter {
