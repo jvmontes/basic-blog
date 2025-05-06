@@ -12,7 +12,7 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
 
   const logoImage = getImage(file.childImageSharp.gatsbyImageData)
-  const imagePath = "/images/jv-logo-full-soft-cream.png"
+  const imagePath = "/images/jv-social-card.png"
 
   return (
     <Layout>
