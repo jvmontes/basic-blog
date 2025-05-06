@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import "../styles/global.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
@@ -9,10 +10,20 @@ export default function Template({
 }) {
   const { markdownRemark, file } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+
   const logoImage = getImage(file.childImageSharp.gatsbyImageData)
+  const imagePath = frontmatter.image
+    ? frontmatter.image
+    : "/images/jv-logo-full-soft-cream.png"
 
   return (
     <Layout>
+      <SEO
+        title={frontmatter.title}
+        description={frontmatter.description || ""}
+        image={imagePath}
+        pathname={frontmatter.slug}
+      ></SEO>
       <div className="standardSpacing">
         <div className="blog-post-container">
           <div className="blog-post">
@@ -43,6 +54,8 @@ export const pageQuery = graphql`
       frontmatter {
         slug
         title
+        description
+        image
       }
     }
     file(relativePath: { eq: "jv-logo-full-soft-cream.png" }) {

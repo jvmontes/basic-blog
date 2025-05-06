@@ -3,6 +3,7 @@ module.exports = {
     title: `Jorge Viramontes`,
     description: `A portfolio to showcase professional work, blog, and music.`,
     author: `@jvmontes`,
+    siteUrl: `https://www.jorgeviramontes.com`,
   },
   plugins: [
     `gatsby-plugin-sass`,

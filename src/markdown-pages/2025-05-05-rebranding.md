@@ -1,5 +1,6 @@
 ---
 title: "34-by-34: Rebranding the Website (4/34)"
+description: "A behind-the-scenes look at the Jorge Viramontes brand refresh — new colors, new fonts, and a new vibe."
 date: "2025-05-05"
 slug: "/34-by-34/rebranding-the-website/"
 tags:
