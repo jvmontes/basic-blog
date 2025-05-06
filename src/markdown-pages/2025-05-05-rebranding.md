@@ -15,20 +15,26 @@ tags:
 excerpt: "Okay - we are back on track! Welcome to the new rebranded site!"
 ---
 
-_Monday, May 5th, 2025, 1:56PM._
+## Monday, May 5th, 2025, 1:56PM.
 
-Hello, world! It is I, Jorge Viramontes, coming back at ya with a brand new blog entry!
+Hello, world! It is I, Jorge Viramontes, coming back at ya with a brand new blog entry! Today we are on blog entry #4 of our road to 34 blogs by May 30th, 2025! What sort of mess did I get myself into-- stay tuned to find out!
 
 <aside class="callout">
   <div>💡</div> <div><strong>Note:</strong> For this post, I will work to maintain the blog strictly in my own voice, not with the assistance of an AI assistant 🤖. All of the text content, aka the storytelling, is originally written (you can probably tell). AI is only used to achieve styling tasks, resolve issues, and help with the creative process-- not for its generative content creation capabilities. </div>
 
 </aside>
 
-I am at Cafe El Meson sipping on a latte and listening to my [🎻 Classical Music playlist](https://open.spotify.com/playlist/1QP9ZaHzM0VxSRiURJMXMW?si=f7102b4c301f4d2e) on shuffle with noise-cancelling headphones.
+I am at [Cafe El Meson](https://maps.app.goo.gl/4yY5Khd1RXfCRYwu8) sipping on a latte and listening to my [🎻 Classical Music playlist](https://open.spotify.com/playlist/1QP9ZaHzM0VxSRiURJMXMW?si=f7102b4c301f4d2e) on shuffle with noise-cancelling headphones.
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.8950202718397!2d-87.70631545913342!3d41.809021869855414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e31fb13132e6f%3A0xdcaf23ad417cd5a4!2sCafe%20El%20Meson!5e0!3m2!1sen!2sus!4v1746503135621!5m2!1sen!2sus" width="280" height="210" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## Restoring Integrity
 
-I currently am an unemployed-solopreneur-multi-hyphenate. I could go into detail and tell you my story right here and now, but I think the most important part for you to know is that: I am a software engineer and builder, and I’m currently working on dedicating concentrated time on building my personal website, using it as a platform to work on my craft, shape my narrative, and channel my voice.
+### I currently am an unemployed-solopreneur-multi-hyphenate.
+
+I could go into detail and tell you my story right here and now, but I think the most important part for you to know is that:
+
+### I am a software engineer and builder, and I’m currently working on dedicating concentrated time on building my personal website, using it as a platform to work on my craft, shape my narrative, and channel my voice.
 
 I’m a pretty fast typer. Through typing, my fingers can mostly keep up with my brain, better than the pen can. So here we are, re-launching this thing, yet again.
 
@@ -36,7 +42,7 @@ But this time, it’s different. I see the larger strategy. I have my priorities
 
 ---
 
-_5/5/2025 2:02PM._
+## 5/5/2025 2:02PM.
 
 Anywho, I have an ongoing list of things I’d like to do. I’m going to try and dedicate time to get this done as quickly as possible, leveraging a bit of AI if I need it.
 
@@ -51,6 +57,8 @@ Before implementing these changes, it’s always nice to see where we’re at to
 Here are some screenshots of different components of this fun project.
 
 ### Current Website Homepage
+
+img goes here
 
 ### Blog Entry Social Media Link
 
@@ -74,10 +82,9 @@ img here
 
 As time has gone on, it’s been hightime for me to refresh my blog. The new aesthetic will be professional, bold, impactful, and trustworthy.
 
-<aside>
-📔
+<aside class="callout">
 
-Btw, I wrote this entire post on a Notion page first. It’s fun bc I’m used to using Notion, and it’s a great way for me to write fast, get all the pieces together I want, and then at transfer time, it should be pretty straightforward (except images, which will require some manual effort) to transfer onto a `.md` file for hosting on my domain. Fun stuff!
+  <div>📔</div> <div><strong>Note: </strong>Btw, I wrote this entire post on a Notion page first. It’s fun bc I’m used to using Notion, and it’s a great way for me to write fast, get all the pieces together I want, and then at transfer time, it should be pretty straightforward (except images, which will require some manual effort) to transfer onto a `.md` file for hosting on my domain. Fun stuff!
 
 </aside>
 
@@ -103,7 +110,7 @@ Already, I see this will have to change and add our new `@fontsource` lines for 
 
 ---
 
-4:35PM.
+## 4:35PM.
 
 Alright, it’s been a long afternoon, but we made the font changes. I also removed where I defined the font multiple times, so in the future it’ll be a much more centralized process and take less time.
 
@@ -125,10 +132,25 @@ New logo ideas:
 
 idea 1,2,3,4
 
-5:36PM
+## 5:36PM
 
 Ooh, this would all be great for a “What’s your personal brand?” post. This fresh new logo, plus a sick shot of me as a speaker on stage in a suit. Yaaaaas.
 
-7:12PM
+## 7:12PM
 
 Okay, so, I spent a significant amount of time rebranding my website. You can find most of the work I did in [this pull request](https://github.com/jvmontes/basic-blog/pull/25).
+
+## 10:43PM
+
+### Alright, we've made some fantastic progress today.
+
+I'm currently adding the images to this blog, and feeling pretty good with the progress made today.
+I am contemplating testing another set of colors, and I will cross that bridge when I get to it... but at least today, I was able to undergo a complete rebrand on my website, make it more resilient to future changes, and making my code more robust as I revisit it for this endeavor.
+
+I also wanted to quickly share that this project doesn't end here. As part of this creative endeavor, I am going to create in other ways, as well. This might look like blogs on LinkedIn, TikTok videos, YouTube videos, and other mediums. This is the central catalyst for this impact - I'll have this as my homebase behind the scenes as I continue to build. Thanks for being along for the ride.
+
+If you wanna make sure you don't miss out on any new posts, send me a message to add you to my VIP list (newsletter, but it's 2025 so it's cool).
+
+As always, thanks for joining!
+
+5/5/25 -JV
