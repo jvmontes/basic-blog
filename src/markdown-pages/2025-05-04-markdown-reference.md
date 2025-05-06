@@ -6,11 +6,7 @@ tags: ["style test", "markdown", "blog structure"]
 excerpt: "A visual reference to test all markdown styles in my personal blog."
 ---
 
-# Markdown Styling Reference
-
-Use this post to check how various markdown elements render on your blog. Update your styles as needed!
-
----
+## This is a post to show various markdown elements and how they display on a web page!
 
 ## Headings
 
@@ -115,8 +111,8 @@ _Use bold and italics to simulate tag chips if you're not using styled component
 
 ---
 
-## Image
+## Images
 
 ![Logo image](/images/jv.png)
 
----
+![Logo image 2](/images/jv-logo-full-soft-cream.png)

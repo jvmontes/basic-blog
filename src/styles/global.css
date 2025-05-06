@@ -1,18 +1,87 @@
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-heading: 'Sanchez', serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 
+  --color-text: #011a34;
+  --color-secondary: #333;
+  --color-background: #f4f1ea;
+  --color-accent: #c89736;
+  --color-light-gray: #ffffff;
+}
+
+/* Apply font globally */
+html,
+body {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+/* Use heading font for titles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-normal);
+  text-rendering: optimizeLegibility;
+}
+
+/* Utility classes */
 .standardSpacing {
-    margin: 0 auto;
-    max-width: 1080px;
-    padding: 1rem 1.5rem;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 1rem 1.5rem;
 }
 
 .content {
-    margin: 0 auto;
-    max-width: 1080px;
-    padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 2rem;
 }
 
 @media screen and (max-width: 600px) {
-    .content {
-        padding: 0 1rem;
-    }
+  .content {
+    padding: 0 1rem;
+  }
+}
+
+.callout {
+  background-color: var(--color-light-gray);
+  border-left: 0.5rem solid var(--color-accent);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  color: var(--color-secondary);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.callout strong {
+  font-weight: 600;
+}
+
+.blog-post-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-md {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
 }

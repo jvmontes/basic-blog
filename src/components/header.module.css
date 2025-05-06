@@ -1,16 +1,16 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
-    padding-bottom: 1rem;
-    margin: 1rem 2rem;
-    border-bottom: 0.4rem solid #DBF9FB;
+  padding-bottom: 1rem;
+  margin: 1rem 2rem;
+  border-bottom: 0.4rem solid var(--color-accent);
 }
 
 @media only screen and (max-width: 600px) {
-    .header {
-        padding-bottom: 0.5rem;
-        margin: 1rem 1rem;
-    }
+  .header {
+    padding-bottom: 0.5rem;
+    margin: 1rem 1rem;
+  }
 }
