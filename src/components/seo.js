@@ -32,7 +32,7 @@ function SEO({ description, lang, meta, title, image, pathname }) {
 
   const metaImage = image
     ? `${siteUrl}${image}`
-    : `${siteUrl}/images/jv-logo-full-soft-cream.png`
+    : `${siteUrl}/images/jv-social-card.png`
   const metaUrl = `${siteUrl}${pathname || "/"}`
 
   return (
