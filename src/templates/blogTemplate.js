@@ -55,7 +55,6 @@ export const pageQuery = graphql`
         slug
         title
         description
-        image
       }
     }
     file(relativePath: { eq: "jv-logo-full-soft-cream.png" }) {
