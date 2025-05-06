@@ -1,21 +1,21 @@
 .blog {
-    display: flex;
-    align-items: center;
-    margin: 4px auto 12px auto;
+  display: flex;
+  align-items: center;
+  margin: 4px auto 12px auto;
 
-    border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid var(--color-text);
 }
 
 .description {
-    flex: 1;
+  flex: 1;
 }
 
 .title {
-    color: #1a1a1a;
-    text-decoration: underline;
-    transition: all 0.2s ease;
+  color: var(--color-text);
+  text-decoration: underline;
+  transition: all 0.2s ease;
 }
 
 .title:hover {
-    color: #0f7f8c;
+  color: var(--color-accent);
 }
