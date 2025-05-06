@@ -64,23 +64,25 @@ img goes here
 
 Below, you can see what a link to my blog looks like on LinkedIn. Unfortunately, it doesn’t include any images or additional description text. It would be nice to add these things to make the preview more visually engaging. I’m going to look into this!
 
-img here
+![Social Media Post on LinkedIn](/images/blog-4/34-by-34-linkedin-post.png)
 
 ### Blog Entry iMessage Preview
 
 Below, this is what it looks like on iMessage. I would like to enrich this, as well.
 
-img here
+![iMessage Link to Blog](/images/blog-4/imessage-share.png)
 
 ### Blog Entry on Web
 
 This is what an entry on the blog currently looks like.
 
-img here
+![Blog Entry](/images/blog-4/blog-entry.png)
 
 ## Future Vision of the Blog
 
-As time has gone on, it’s been hightime for me to refresh my blog. The new aesthetic will be professional, bold, impactful, and trustworthy.
+As time has gone on, it’s been hightime for me to refresh my blog.
+
+### The new aesthetic will be professional, bold, impactful, and trustworthy.
 
 <aside class="callout">
 
@@ -90,11 +92,11 @@ As time has gone on, it’s been hightime for me to refresh my blog. The new aes
 
 Let’s keep it simple. Working with AI, I’ve been able to create the foundation for my new brand. I’ll spare you the details, but here is more or less what I’m going for (the AI generated image is soooooo funny 😆)
 
-img here
+![AI Jorge](/images/blog-4/ai-jorge.png)
 
 Ok, I’m about to dive in. It’s 3:23PM, I took a break to have a B O M B chicken jibarito sandwich. Lemme know if you wanna know where it was from and wanna try it, I’ll send the rec your way! 😋
 
-img here
+![Chicken Jibarito](/images/blog-4/chicken-jibarito.jpg)
 
 ---
 
@@ -104,7 +106,7 @@ img here
 
 Btw, here’s what my project stack looks like. This is a screenshot of my `package.json` file, which essentially is used to list all the package dependencies included to run the app. It’s mostly using [Gatsby](https://www.gatsbyjs.com/) on top of React.
 
-screenshot here
+![Package JSON](/images/blog-4/package-json.png)
 
 Already, I see this will have to change and add our new `@fontsource` lines for the new fonts.
 
@@ -130,11 +132,18 @@ Let’s get it!
 
 New logo ideas:
 
-idea 1,2,3,4
+![Logo idea 1](/images/blog-4/logo-1.png)
+![Logo idea 2](/images/blog-4/logo-2.png)
+![Logo idea 3](/images/blog-4/logo-3.png)
+![Logo idea 4](/images/blog-4/logo-4.png)
 
 ## 5:36PM
 
-Ooh, this would all be great for a “What’s your personal brand?” post. This fresh new logo, plus a sick shot of me as a speaker on stage in a suit. Yaaaaas.
+Ooh, this would all be great for a “What’s your personal brand?” post. This fresh new logo, plus a sick shot of me as a speaker on stage in a suit.
+
+![Jorge speaking](/images/blog-4/jorge-speaking.jpg)
+
+### Yaaaaas.
 
 ## 7:12PM
 
@@ -146,6 +155,10 @@ Okay, so, I spent a significant amount of time rebranding my website. You can fi
 
 I'm currently adding the images to this blog, and feeling pretty good with the progress made today.
 I am contemplating testing another set of colors, and I will cross that bridge when I get to it... but at least today, I was able to undergo a complete rebrand on my website, make it more resilient to future changes, and making my code more robust as I revisit it for this endeavor.
+
+## 11:57PM
+
+## One final note...
 
 I also wanted to quickly share that this project doesn't end here. As part of this creative endeavor, I am going to create in other ways, as well. This might look like blogs on LinkedIn, TikTok videos, YouTube videos, and other mediums. This is the central catalyst for this impact - I'll have this as my homebase behind the scenes as I continue to build. Thanks for being along for the ride.
 
