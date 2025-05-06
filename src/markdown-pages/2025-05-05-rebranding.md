@@ -92,11 +92,11 @@ As time has gone on, it’s been hightime for me to refresh my blog.
 
 Let’s keep it simple. Working with AI, I’ve been able to create the foundation for my new brand. I’ll spare you the details, but here is more or less what I’m going for (the AI generated image is soooooo funny 😆)
 
-![AI Jorge](/images/blog-4/ai-jorge.png)
+<img src="/images/blog-4/ai-jorge.png" alt="AI Jorge" class="img-md" />
 
-Ok, I’m about to dive in. It’s 3:23PM, I took a break to have a B O M B chicken jibarito sandwich. Lemme know if you wanna know where it was from and wanna try it, I’ll send the rec your way! 😋
+Ok, I’m about to dive in. It’s 3:23PM, I took a break to have a B O M B chicken jibarito sandwich. 😋
 
-![Chicken Jibarito](/images/blog-4/chicken-jibarito.jpg)
+<img src="/images/blog-4/chicken-jibarito.jpg" alt="Chicken Jibarito" class="img-md" />
 
 ---
 
@@ -132,16 +132,16 @@ Let’s get it!
 
 New logo ideas:
 
-![Logo idea 1](/images/blog-4/logo-1.png)
-![Logo idea 2](/images/blog-4/logo-2.png)
-![Logo idea 3](/images/blog-4/logo-3.png)
-![Logo idea 4](/images/blog-4/logo-4.png)
+<img src="/images/blog-4/logo-1.png" alt="logo idea 1" class="img-md" />
+<img src="/images/blog-4/logo-2.png" alt="logo idea 2" class="img-md" />
+<img src="/images/blog-4/logo-3.png" alt="logo idea 3" class="img-md" />
+<img src="/images/blog-4/logo-4.png" alt="logo idea 4" class="img-md" />
 
 ## 5:36PM
 
 Ooh, this would all be great for a “What’s your personal brand?” post. This fresh new logo, plus a sick shot of me as a speaker on stage in a suit.
 
-![Jorge speaking](/images/blog-4/jorge-speaking.jpg)
+<img src="/images/blog-4/jorge-speaking.jpg" alt="Jorge Speaking" class="img-md" />
 
 ### Yaaaaas.
 
