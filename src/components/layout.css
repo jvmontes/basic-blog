@@ -31,7 +31,7 @@ menu,
 nav,
 section,
 summary {
-  font-family: "Inter";
+  font-family: var(--font-primary);
   display: block;
 }
 
