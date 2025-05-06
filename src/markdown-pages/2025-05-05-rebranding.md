@@ -181,7 +181,7 @@ Here's a final rundown of the new pages and what they look like!
 
 I also wanted to quickly share that this project doesn't end here. As part of this creative endeavor, I am going to create in other ways, as well. This might look like blogs on LinkedIn, TikTok videos, YouTube videos, and other mediums. This is the central catalyst for this impact - I'll have this as my homebase behind the scenes as I continue to build. Thanks for being along for the ride.
 
-### If you wanna make sure you don't miss out on any new posts, send me a message to add you to my VIP list (newsletter, but it's 2025 so it's cool).
+### If you wanna make sure you don't miss out on any new posts, [send me a message](/contact-me/) to add you to my VIP list (newsletter, but it's 2025 so it's cool).
 
 Thanks for reading!
 
