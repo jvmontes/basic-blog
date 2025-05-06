@@ -58,7 +58,7 @@ Here are some screenshots of different components of this fun project.
 
 ### Current Website Homepage
 
-img goes here
+![Outdated design](/images/blog-4/oudated-design.png)
 
 ### Blog Entry Social Media Link
 
@@ -156,14 +156,32 @@ Okay, so, I spent a significant amount of time rebranding my website. You can fi
 I'm currently adding the images to this blog, and feeling pretty good with the progress made today.
 I am contemplating testing another set of colors, and I will cross that bridge when I get to it... but at least today, I was able to undergo a complete rebrand on my website, make it more resilient to future changes, and making my code more robust as I revisit it for this endeavor.
 
-## 11:57PM
+## 5/6/25 12:28AM
+
+Alright, been a late night and a long day. But feeling really good with the progress I've made today!
+
+Here's a final rundown of the new pages and what they look like!
+
+### New Website Home Page
+
+![New Home Page](/images/blog-4/new-home-page.png)
+
+### New Blog Home
+
+![New Blog Home](/images/blog-4/new-blog-home.png)
+
+### New Blog Post
+
+![New Blog Post](/images/blog-4/new-blog-post.png)
+
+---
 
 ## One final note...
 
 I also wanted to quickly share that this project doesn't end here. As part of this creative endeavor, I am going to create in other ways, as well. This might look like blogs on LinkedIn, TikTok videos, YouTube videos, and other mediums. This is the central catalyst for this impact - I'll have this as my homebase behind the scenes as I continue to build. Thanks for being along for the ride.
 
-If you wanna make sure you don't miss out on any new posts, send me a message to add you to my VIP list (newsletter, but it's 2025 so it's cool).
+### If you wanna make sure you don't miss out on any new posts, send me a message to add you to my VIP list (newsletter, but it's 2025 so it's cool).
 
-As always, thanks for joining!
+Thanks for reading!
 
 5/5/25 -JV

@@ -29,7 +29,7 @@ const homeHeader = () => {
           </p>
 
           <CommonButton
-            buttonTitle="READ MORE >"
+            buttonTitle="Read More"
             slug="/about"
             isGatsbyLink={true}
           ></CommonButton>
