@@ -664,6 +664,14 @@ pre tt:after {
 }
 
 .blog-post-content a[target="_blank"]::after {
-  content: ' ↗';
-  font-size: 0.8em;
+  content: '↗';
+  font-size: 0.75em;
+  display: inline-block;
+  margin-left: 0.3em;
+  padding: 0.1em 0.3em;
+  border: 1.5px solid currentColor;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
 }
