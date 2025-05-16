@@ -14,7 +14,7 @@ tags:
     "freestyle writing",
     "journaling",
   ]
-excerpt: "A look into the easy and streamlined blog uploading process."
+excerpt: "A look into the easy and streamlined blog upload process."
 ---
 
 ## Posting a New Blog Post
@@ -29,11 +29,11 @@ My GitHub project is setup to spin up a new build on Netlify whenever a new pull
 
 #### 1) Make a New Branch in SourceTree
 
-![Screen Shot 2025-05-11 at 10.17.29 AM.png](attachment:7dabae7f-ddcc-4085-a789-2018df2fd84f:Screen_Shot_2025-05-11_at_10.17.29_AM.png)
+![New branch](/images/blog-6/new-branch.png)
 
 #### 2) Create a New Blog Page in VS Code
 
-![Screen Shot 2025-05-11 at 10.20.32 AM.png](attachment:8e6a7581-ba6c-420a-8559-c0bcfc15393a:Screen_Shot_2025-05-11_at_10.20.32_AM.png)
+![New branch](/images/blog-6/explorer-new-page.png)
 
 #### 3)r Copy Content from Notion into Markdown Page
 
@@ -43,9 +43,25 @@ My GitHub project is setup to spin up a new build on Netlify whenever a new pull
 
 #### 4) Add Metadata to Top of File
 
-![Blog metadata](/images/blog-5-analytics/metadata.png)
+![Blog metadata](/images/blog-6/metadata.png)
 
 #### 5) Save and Run Project
+
+![building project](/images/blog-6/building-project.png)
+
+![project started](/images/blog-6/project-started.png)
+
+#### 5) Page is Ready
+
+Now, all we have to do is double-check the styling and make sure it looks like we're expecting it to.
+
+![project running](/images/blog-6/project-running.png)
+
+#### 5) Commit Changes
+
+Finally, I go back to SourceTree, stage changes I'd like to keep, add a commit message, and push to my remote repository.
+
+![commit changes](/images/blog-6/commit-changes.png)
 
 ## Conclusion
 
