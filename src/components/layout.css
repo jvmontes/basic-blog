@@ -662,3 +662,8 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.blog-post-content a[target="_blank"]::after {
+  content: ' ↗';
+  font-size: 0.8em;
+}
