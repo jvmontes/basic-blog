@@ -22,7 +22,6 @@ Hello, world! It is I, Jorge Viramontes, coming back at ya with a brand new blog
 
 <aside class="callout">
   <div>💡</div> <div><strong>Note:</strong> For this post, I will work to maintain the blog strictly in my own voice, not with the assistance of an AI assistant 🤖. All of the text content, aka the storytelling, is originally written (you can probably tell). AI is only used to achieve styling tasks, resolve issues, and help with the creative process-- not for its generative content creation capabilities. </div>
-
 </aside>
 
 I am at [Cafe El Meson](https://maps.app.goo.gl/4yY5Khd1RXfCRYwu8) sipping on a latte and listening to my [🎻 Classical Music playlist](https://open.spotify.com/playlist/1QP9ZaHzM0VxSRiURJMXMW?si=f7102b4c301f4d2e) on shuffle with noise-cancelling headphones.

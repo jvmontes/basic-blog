@@ -116,3 +116,10 @@ _Use bold and italics to simulate tag chips if you're not using styled component
 ![Logo image](/images/jv.png)
 
 ![Logo image 2](/images/jv-logo-full-soft-cream.png)
+
+## Callout Box
+
+<aside class="callout">
+  <div>💡</div> <div><strong>Note:</strong> This is what an aside with the class `callout` applied looks like. </div>
+
+</aside>
