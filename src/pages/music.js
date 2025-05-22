@@ -4,6 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../styles/global.css"
 import "../styles/music.css"
+import { FaInstagram } from "react-icons/fa"
+import { IconContext } from "react-icons"
+import LinkInBioItem from "../components/common/LinkInBioItem"
 
 const MusicPage = () => {
   return (
@@ -13,15 +16,11 @@ const MusicPage = () => {
         <h2 className="linkinbio-header">Connect with Jorge Viramontes</h2>
         <p className="linkinbio-subtext">Music · Tech · Creativity</p>
         <ul className="linkinbio-links">
-          <li>
-            <a
-              href="https://www.instagram.com/j.albertomusic"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram (Music)
-            </a>
-          </li>
+          <LinkInBioItem
+            href="https://www.instagram.com/j.albertomusic"
+            icon={FaInstagram}
+            label="Instagram"
+          ></LinkInBioItem>
           <li>
             <a
               href="https://www.tiktok.com/@thejorgealberto"
@@ -38,24 +37,6 @@ const MusicPage = () => {
               rel="noopener noreferrer"
             >
               SoundCloud
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.youtube.com/@jviramontes"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              YouTube
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.jorgeviramontes.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Blog & Portfolio
             </a>
           </li>
           <li>
