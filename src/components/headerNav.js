@@ -4,7 +4,7 @@ import * as styles from "./headerNav.module.css"
 
 import { IconContext } from "react-icons"
 
-import { FiBook, FiUser, FiMail } from "react-icons/fi"
+import { FiBook, FiUser, FiMail, FiMusic } from "react-icons/fi"
 
 const activeStyles = {
   textDecoration: `underline`,
@@ -25,6 +25,19 @@ const HeaderNav = () => (
         </span>
       </IconContext.Provider>
       Blog
+    </Link>
+
+    <Link
+      to="/music"
+      className={styles.linkContainer}
+      activeStyle={activeStyles}
+    >
+      <IconContext.Provider value={{ color: "#083f45", size: "1.5rem" }}>
+        <span>
+          <FiMusic></FiMusic>
+        </span>
+      </IconContext.Provider>
+      Music
     </Link>
 
     <Link
