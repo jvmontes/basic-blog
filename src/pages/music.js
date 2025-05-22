@@ -4,8 +4,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../styles/global.css"
 import "../styles/music.css"
-import { FaInstagram } from "react-icons/fa"
-import { IconContext } from "react-icons"
+import { FaInstagram, FaTiktok, FaSoundcloud } from "react-icons/fa"
+import { IoLogoVenmo } from "react-icons/io5"
+
 import LinkInBioItem from "../components/common/LinkInBioItem"
 
 const MusicPage = () => {
@@ -13,42 +14,29 @@ const MusicPage = () => {
     <Layout>
       <SEO title="Music" />
       <section className="linkinbio-container">
-        <h2 className="linkinbio-header">Connect with Jorge Viramontes</h2>
+        <h2 className="linkinbio-header">Jorge Viramontes Music</h2>
         <p className="linkinbio-subtext">Music · Tech · Creativity</p>
         <ul className="linkinbio-links">
+          <LinkInBioItem
+            href="https://soundcloud.com/jayalbertomusic"
+            icon={FaSoundcloud}
+            label="SoundCloud"
+          ></LinkInBioItem>
           <LinkInBioItem
             href="https://www.instagram.com/j.albertomusic"
             icon={FaInstagram}
             label="Instagram"
           ></LinkInBioItem>
-          <li>
-            <a
-              href="https://www.tiktok.com/@thejorgealberto"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              TikTok
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://soundcloud.com/jayalbertomusic"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              SoundCloud
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://venmo.com/u/jorgemontes"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="linkinbio-cta"
-            >
-              💛 Support via Venmo
-            </a>
-          </li>
+          <LinkInBioItem
+            href="https://www.tiktok.com/@thejorgealberto"
+            icon={FaTiktok}
+            label="TikTok"
+          ></LinkInBioItem>
+          <LinkInBioItem
+            href="https://venmo.com/u/Jorge-Viramontes"
+            icon={IoLogoVenmo}
+            label="Buy me a coffee ☕️ 💙"
+          ></LinkInBioItem>
         </ul>
       </section>
     </Layout>
