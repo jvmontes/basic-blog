@@ -11,9 +11,7 @@ const MusicPage = () => {
       <SEO title="Music" />
       <section className="linkinbio-container">
         <h2 className="linkinbio-header">Connect with Jorge Viramontes</h2>
-        <p className="linkinbio-subtext">
-          Music · Tech · Mindful Millennial Leadership
-        </p>
+        <p className="linkinbio-subtext">Music · Tech · Creativity</p>
         <ul className="linkinbio-links">
           <li>
             <a
