@@ -65,42 +65,6 @@ const HeaderNav = () => (
       </IconContext.Provider>
       Contact
     </Link>
-
-    {/* 
-
-        <Link to="/" className={styles.linkContainer} activeStyle={activeStyles}>
-            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
-                <span><FiHome></FiHome></span>
-            </IconContext.Provider>
-            Home
-        </Link>
-
-        
-
-        GALLERY & SHOP ARE FUTURE FEATURES.
-        
-        <Link to="/contact-me" className={styles.linkContainer} activeStyle={activeStyles}>
-            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
-                <span><FiMail></FiMail></span>
-            </IconContext.Provider>
-            Contact
-        </Link>
-
-        <Link to="/gallery" className={styles.linkContainer} activeStyle={activeStyles}>
-            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
-                <span><FiCamera></FiCamera></span>
-            </IconContext.Provider>
-            Gallery
-        </Link>
-
-        <Link to="/shop" className={styles.linkContainer} activeStyle={activeStyles}>
-            <IconContext.Provider value={{ color: "#1A1A1A", size: "1.5rem" }}>
-                <span><FiShoppingBag></FiShoppingBag></span>
-            </IconContext.Provider>
-            Shop
-        </Link>
-        
-        */}
   </div>
 )
 
