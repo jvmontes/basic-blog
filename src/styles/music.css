@@ -1,0 +1,66 @@
+.linkinbio-container {
+  padding: 2rem;
+  max-width: 460px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.linkinbio-header {
+  font-size: 1.5rem;
+  color: var(--color-brand-blue);
+  margin-bottom: 0.5rem;
+}
+
+.linkinbio-subtext {
+  font-size: 1rem;
+  color: var(--color-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.linkinbio-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkinbio-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  margin: 1rem 0.5rem;
+  padding: 1rem;
+  border: 2px solid var(--color-text);
+  border-radius: 1rem;
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.linkinbio-links a:hover {
+  background-color: var(--color-accent);
+  color: var(--color-light-gray);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.linkinbio-link .icon {
+  width: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.linkinbio-link .label {
+  flex-grow: 1;
+  margin-right: 1.5rem;
+}
+
+.linkinbio-cta {
+  color: var(--color-accent);
+}

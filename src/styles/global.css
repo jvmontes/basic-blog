@@ -7,8 +7,9 @@
   --color-text: #011a34;
   --color-secondary: #333;
   --color-background: #f4f1ea;
-  --color-accent: #c89736;
+  --color-accent: #BF9001;
   --color-light-gray: #ffffff;
+  --color-brand-blue: hsl(222 60% 44% / 1);
 }
 
 /* Apply font globally */
