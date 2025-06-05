@@ -8,13 +8,13 @@
 
 .linkinbio-header {
   font-size: 1.5rem;
-  color: #0678BF;
+  color: var(--color-brand-blue);
   margin-bottom: 0.5rem;
 }
 
 .linkinbio-subtext {
   font-size: 1rem;
-  color: #555;
+  color: var(--color-secondary);
   margin-bottom: 1.5rem;
 }
 
@@ -62,5 +62,5 @@
 }
 
 .linkinbio-cta {
-  color: #BF9001;
+  color: var(--color-accent);
 }

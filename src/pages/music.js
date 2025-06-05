@@ -14,8 +14,13 @@ const MusicPage = () => {
     <Layout>
       <SEO title="Music" />
       <section className="linkinbio-container">
-        <h2 className="linkinbio-header">Jorge Viramontes Music</h2>
-        <p className="linkinbio-subtext">Music · Tech · Creativity</p>
+        <h2 className="linkinbio-header">
+          <strong>J. Alberto Music</strong>
+        </h2>
+        <p className="linkinbio-subtext">
+          Music · Technology · Abundance Mindset
+        </p>
+
         <ul className="linkinbio-links">
           <LinkInBioItem
             href="https://soundcloud.com/jayalbertomusic"
